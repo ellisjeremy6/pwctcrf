@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：实战项目：HTTPS本地自签名证书配置实践
+简介：文件批量导入导出功能实现，开发批量导入导出接口，处理大量文件数据，完成业务数据批量迁移与导出。
+ | 原文链接：http://book.apwszd.asia/blog/8594694.sHtMl
+
+原标题：线上异常：缓存雪崩带来数据库压力瞬间飙升
+简介：golang gorm select 指定查询字段，指定查询字段，避免查询全部字段，减少数据传输，提升查询性能。
+ | 原文链接：http://book.apwszd.asia/blog/6382919.sHtMl
+
+原标题：Hands‑on：简易链路追踪原型开发实践
+简介：golang 日志按日期切割实现方案，实现日志文件按天切割，自动归档旧日志，防止单个日志文件过大。
+ | 原文链接：http://book.apwszd.asia/blog/2949028.sHtMl
+
+原标题：Hands‑on：模拟RPC超时重试业务异常场景
+简介：golang sync.Cond 条件变量使用，Cond 条件变量协程等待唤醒，复杂并发同步场景。
+ | 原文链接：http://book.apwszd.asia/blog/1534041.sHtMl
+
+原标题：架构笔记：高并发系统核心设计思路总结
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://book.apwszd.asia/blog/4380704.sHtMl
+
+原标题：golang minio 分片上传断点续传
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：http://book.apwszd.asia/blog/1828171.sHtMl
+
+原标题：程序日志分级输出规范实践
+简介：golang http 代理客户端配置，Go HTTP Client 配置代理，通过代理服务器发起网络请求。
+ | 原文链接：http://book.apwszd.asia/blog/9305859.sHtMl
+
+原标题：部署实践：服务器时间同步chrony配置
+简介：golang os/exec 安全执行外部命令，规避命令注入漏洞，参数分离，禁止拼接命令字符串执行。
+ | 原文链接：http://book.apwszd.asia/blog/7594816.sHtMl
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：golang go http 静态文件禁止目录遍历，http.FileServer 防止../ 路径穿越，了解底层安全实现。
+ | 原文链接：http://book.apwszd.asia/blog/6371416.sHtMl
+
+原标题：AI实践：大模型生成测试用例实践与校验
+简介：数据库分表路由写入分片修正，修复分表路由逻辑，保证数据写入正确分片，不会出现数据丢失错乱。
+ | 原文链接：http://book.apwszd.asia/blog/0717071.sHtMl
+
+原标题：重复提交幂等防护再次讲解
+简介：golang 服务注册 etcd 简单示例，etcd 实现服务注册发现，微服务实例注册元数据，客户端发现节点。
+ | 原文链接：http://book.apwszd.asia/blog/5079582.sHtMl
+
+原标题：golang 系统设计自动化测试 ci 流水线集成实操
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：http://book.apwszd.asia/blog/9616972.sHtMl
+
+原标题：Nginx 透传真实客户端 IP 配置
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：http://book.apwszd.asia/blog/7505848.sHtMl
+
+原标题：网关集成鉴权限流日志一体化
+简介：golang cgo 内存管理 C 与 Go 内存，区分 Go 内存 C 堆内存，防止 cgo 内存泄漏，正确释放 C 内存。
+ | 原文链接：http://book.apwszd.asia/blog/3680934.sHtMl
+
+原标题：线程池拒绝策略任务丢失防护
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：http://book.apwszd.asia/blog/9356579.sHtMl
+
+原标题：安全笔记：CSP内容安全策略配置实践
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://book.apwszd.asia/blog/4388680.sHtMl
+
+原标题：golang 系统设计缓存热点 key 问题业务规避
+简介：golang 单元测试 mock http 请求，mock HTTP 外部接口，单元测试不依赖外部网络，保证用例稳定运行。
+ | 原文链接：http://book.apwszd.asia/blog/8505859.sHtMl
+
+原标题：安全笔记：JWT安全风险，签名泄露过期控制
+简介：golang jwt 鉴权中间件完整示例，Gin JWT 鉴权中间件，令牌校验，解析用户信息，接口鉴权拦截。
+ | 原文链接：http://book.apwszd.asia/blog/8595719.sHtMl
+
+原标题：golang mysql 行锁表锁场景区分
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：http://book.apwszd.asia/blog/9800191.sHtMl
+
+原标题：golang mysql 悲观锁乐观锁实现
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://book.apwszd.asia/blog/7587858.sHtMl
+
+原标题：nodejs 消息队列消费服务开发
+简介：golang 数据库连接池参数调优详解，最大连接空闲连接最大生命周期，结合业务合理配置避免资源浪费。
+ | 原文链接：http://book.apwszd.asia/blog/5467574.sHtMl
+
+原标题：golang redis 缓存穿透解决方案
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://book.apwszd.asia/blog/5201715.sHtMl
+
+原标题：golang 单元测试 table‑driven
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：http://book.apwszd.asia/blog/6372526.sHtMl
+
+原标题：golang 系统设计错误码体系完整设计
+简介：golang 僵尸进程处理 go 程序，正确等待子进程退出，避免产生僵尸进程，占用系统进程表。
+ | 原文链接：http://book.apwszd.asia/blog/8594949.sHtMl
+
+原标题：ORM 隐式慢查询问题规避
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：http://book.apwszd.asia/blog/1824131.sHtMl
+
+原标题：入门实践：简易导出导入文件功能实现
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://book.apwszd.asia/blog/7494734.sHtMl
+
+原标题：实践：数据库慢查询分析与索引优化实战演练
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：http://book.apwszd.asia/blog/9313159.sHtMl
+
+原标题：Practice：实现熔断降级组件简单原型代码
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：http://book.apwszd.asia/blog/0717071.sHtMl
+
+原标题：CI 持续集成自动构建流程
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://book.apwszd.asia/blog/9613929.sHtMl
+
+原标题：golang 大文件 http 下载服务
+简介：golang gorm 子查询嵌套查询写法，Gorm 实现子查询、嵌套查询，复杂条件查询简化代码编写。
+ | 原文链接：http://book.apwszd.asia/blog/9605840.sHtMl
+
+原标题：golang 系统设计定时任务执行超时中断防护
+简介：golang context.WithCancel 手动取消上下文，WithCancel 生成可取消 ctx，手动调用 cancel 触发取消。
+ | 原文链接：http://book.apwszd.asia/blog/7413928.sHtMl
+
+原标题：新手教程：如何给开源项目提交第一个PR
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://book.apwszd.asia/blog/4268473.sHtMl
+
+原标题：安全笔记：CORS跨域配置错误安全风险
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：http://book.apwszd.asia/blog/2950592.sHtMl
+
+原标题：安全笔记：第三方SDK安全风险评估要点
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：http://book.apwszd.asia/blog/6370928.sHtMl
+
+原标题：入门实践：简单数据脱敏处理示例
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：http://book.apwszd.asia/blog/5272694.sHtMl
+
+原标题：golang 系统设计压测工具 vegeta 使用示例
+简介：API 大版本不兼容平滑迁移，API 版本迭代不兼容旧接口，设计平滑迁移方案，逐步完成版本切换。
+ | 原文链接：http://book.apwszd.asia/blog/0446917.sHtMl
+
+原标题：golang redis 分布式锁 redisson 思路
+简介：数据库事务 ACID 原理讲解，拆解事务四大特性，理解事务隔离、原子性，明白事务如何保障数据安全。
+ | 原文链接：http://book.apwszd.asia/blog/7161525.sHtMl
+
+原标题：运维笔记：系统文件句柄数调整生产配置
+简介：golang go 服务蓝绿发布实践思路，蓝绿两套实例，流量一键切换，回滚快速降低发布风险。
+ | 原文链接：http://book.apwszd.asia/blog/9250405.sHtMl
+
+原标题：主干开发团队代码合并策略
+简介：golang go 死锁检测工具，静态检查、运行检测，发现 channel 锁导致死锁问题。
+ | 原文链接：http://book.apwszd.asia/blog/4161683.sHtMl
+
+原标题：依赖安装失败全方位排错
+简介：golang prometheus 指标埋点开发，业务埋点计数器、仪表盘、直方图，对接 prometheus 采集监控指标。
+ | 原文链接：http://book.apwszd.asia/blog/3746252.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang k8s secret 加密敏感信息
+简介：golang 数据库连接池参数调优详解，最大连接空闲连接最大生命周期，结合业务合理配置避免资源浪费。
+ | 原文链接：http://book.apwszd.asia/blog/6389796.sHtMl
+
+原标题：Debug：异步任务堆积，服务响应越来越慢
+简介：golang alertmanager 告警配置实践，alertmanager 配置告警路由，告警发送邮件钉钉，异常及时通知运维。
+ | 原文链接：http://book.apwszd.asia/blog/6384705.sHtMl
+
+原标题：golang 系统设计监控体系指标分类方法论梳理
+简介：golang 协程数量监控统计方案，统计运行中 goroutine 数量，监控协程泄露，协程数量异常及时告警。
+ | 原文链接：http://book.apwszd.asia/blog/5268495.sHtMl
+
+原标题：开发生产环境资源路径统一
+简介：日志输出规范防止磁盘爆满，控制日志输出量，配置日志切割轮转，避免日志文件无限增长占满磁盘。
+ | 原文链接：http://book.apwszd.asia/blog/6483647.sHtMl
+
+原标题：实战：搭建日志收集分析简易完整演示环境
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：http://book.apwszd.asia/blog/2837170.sHtMl
+
+原标题：设计思考：大促系统架构压测改造整体思路
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：http://book.apwszd.asia/blog/0029042.sHtMl
+
+原标题：新手指南：项目本地编译输出产物解析
+简介：golang tcp 连接泄露排查定位，netstat 查看连接状态，找出未正常关闭连接，定位连接泄漏代码。
+ | 原文链接：http://book.apwszd.asia/blog/3252556.sHtMl
+
+原标题：Architecture：鉴权授权系统架构设计思路
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：http://book.apwszd.asia/blog/3713692.sHtMl
+
+原标题：nodejs 定时任务生产环境避坑
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：http://book.apwszd.asia/blog/1824358.sHtMl
+
+原标题：前端防抖节流高频事件处理
+简介：golang time 时间格式化参考时间牢记，2006‑01‑02T15:04:05Z07:00，掌握 go 时间格式化关键点。
+ | 原文链接：http://book.apwszd.asia/blog/7502818.sHtMl
+
+原标题：HelloGitWorkflow：理解简单主干开发流程
+简介：golang rsa 非对称加密签名验签，RSA 非对称加密与签名验签，实现非对称安全通信。
+ | 原文链接：http://book.apwszd.asia/blog/3161416.sHtMl
+
+原标题：Git commit 钩子提交规范校验
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：http://book.apwszd.asia/blog/3616160.sHtMl
+
+原标题：Hands‑on：简易图片压缩处理服务demo
+简介：golang testify testify 断言库使用，testify assert require 断言，简化单元测试断言代码。
+ | 原文链接：http://book.apwszd.asia/blog/5260404.sHtMl
+
+原标题：分布式 ID 生成器高并发实现
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：http://book.apwszd.asia/blog/9563659.sHtMl
+
+原标题：移动端适配 rem vw 方案对比
+简介：nodejs 读取大文件 csv 处理方案，Node 流式读取超大 CSV 文件，逐行解析，避免一次性加载全部文件。
+ | 原文链接：http://book.apwszd.asia/blog/9580249.sHtMl
+
+原标题：从零搭建简单的身份登录模拟示例
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://book.apwszd.asia/blog/8373548.sHtMl
+
+原标题：golang 系统信号信号量处理
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：http://book.apwszd.asia/blog/3049171.sHtMl
+
+原标题：安全实践：请求输入校验防御恶意参数
+简介：Git 分支切换合并删除完整操作，实操分支全生命周期操作，包含切换、合并、删除，熟悉日常开发分支处理流程。
+ | 原文链接：http://book.apwszd.asia/blog/1851393.sHtMl
+
+原标题：Cookie Session 会话状态管理
+简介：容器内存扩容 OOM 被杀死修复，调高容器内存限制，优化程序内存占用，避免程序被 OOM 终止。
+ | 原文链接：http://book.apwszd.asia/blog/3049283.sHtMl
+
+原标题：设计实践：如何设计可扩展业务数据库表结构
+简介：golang GC 调优 GOGC 参数调整，调整 GOGC 阈值，控制 GC 触发时机，权衡内存占用与 CPU 开销。
+ | 原文链接：http://book.apwszd.asia/blog/4191516.sHtMl
+
+原标题：静态资源 404 路径打包修复
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://book.apwszd.asia/blog/9824738.sHtMl
+
+原标题：golang mysql 读写分离简单实现
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：http://book.apwszd.asia/blog/6378282.sHtMl
+
+原标题：死信队列处理消息阻塞业务
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：http://book.apwszd.asia/blog/9606830.sHtMl
+
+原标题：排错：前端打包chunk过大浏览器加载缓慢
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：http://book.apwszd.asia/blog/6014704.sHtMl
+
+原标题：golang 系统设计第三方接口 mock 单元测试
+简介：WebSocket 断线重连稳定优化，增加 WebSocket 断线自动重连逻辑，处理网络抖动，维持长连接稳定。
+ | 原文链接：http://book.apwszd.asia/blog/0591363.sHtMl
+
+原标题：排错：macOS权限保护导致脚本执行被拦截
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://book.apwszd.asia/blog/2459125.sHtMl
+
+原标题：golang docker compose 本地开发最佳实践
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://book.apwszd.asia/blog/4158375.sHtMl
+
+原标题：实践：API版本控制多种策略落地对比实践
+简介：golang html 模板渲染简单示例，Go HTML 模板渲染，服务端渲染页面，填充数据输出 HTML 页面。
+ | 原文链接：http://book.apwszd.asia/blog/5273627.sHtMl
+
+原标题：Debug：HTTPS握手失败TLS版本兼容问题
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：http://book.apwszd.asia/blog/4263526.sHtMl
+
+原标题：golang kafka offset 提交策略
+简介：golang 换行符统一处理，文本文件读写统一换行符，规避不同系统换行符带来解析异常。
+ | 原文链接：http://book.apwszd.asia/blog/3758471.sHtMl
+
+原标题：golang mysql 避免 select * 查询
+简介：看懂报错日志快速定位问题，讲解日志阅读方法，解析堆栈信息含义，学会从报错信息中定位代码出错位置。
+ | 原文链接：http://book.apwszd.asia/blog/5477569.sHtMl
+
+原标题：HelloDocker：编写你的第一个Dockerfile
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：http://book.apwszd.asia/blog/0928014.sHtMl
+
+原标题：开源项目构建失败排查步骤
+简介：golang url 参数编码处理方案，Go URL 参数编码解码，处理特殊字符，避免 URL 参数错乱。
+ | 原文链接：http://book.apwszd.asia/blog/9821347.sHtMl
+
+原标题：express 中间件开发业务实践
+简介：nodejs 数据库连接池配置调优，调优 Node 数据库连接池参数，平衡性能与资源占用，避免连接耗尽。
+ | 原文链接：http://book.apwszd.asia/blog/3039182.sHtMl
+
+原标题：业务接口幂等完整落地案例
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://book.apwszd.asia/blog/3956361.sHtMl
+
+原标题：排坑：Git提交历史混乱，如何清理错误提交
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：http://book.apwszd.asia/blog/1836141.sHtMl
+
+原标题：新手指南：项目本地编译输出产物解析
+简介：CLI 工具进度条交互效果开发，在命令行工具增加进度条展示，直观反馈任务执行进度，优化命令行体验。
+ | 原文链接：http://book.apwszd.asia/blog/8602814.sHtMl
+
+原标题：golang redis 发布订阅简单示例
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：http://book.apwszd.asia/blog/5483926.sHtMl
+
+原标题：文件编码统一随机乱码修复
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：http://book.apwszd.asia/blog/3038033.sHtMl
+
+原标题：优化实践：业务定时任务错开高峰避免资源争抢
+简介：golang net.Listener 包装自定义监听器，包装 Listener 做连接计数、连接拦截，扩展网络能力。
+ | 原文链接：http://book.apwszd.asia/blog/6379293.sHtMl
+
+三、实战开发｜Practice
+原标题：golang 系统设计配置敏感信息加密存储
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://book.apwszd.asia/blog/1735249.sHtMl
+
+原标题：开发记录：表单文件类型校验后端安全校验实践
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：http://book.apwszd.asia/blog/1938172.sHtMl
+
+原标题：golang docker 运行 etcd 本地测试
+简介：golang atomic.Value 存储任意类型数据，atomic.Value 安全存储读取任意类型，配置热更新常用。
+ | 原文链接：http://book.apwszd.asia/blog/1050393.sHtMl
+
+原标题：调优方案：Docker容器内核参数性能调优
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://book.apwszd.asia/blog/7594836.sHtMl
+
+原标题：golang 系统设计单元测试 mock 外部依赖技巧
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://book.apwszd.asia/blog/9605717.sHtMl
+
+原标题：包管理器依赖冲突解决方案
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：http://book.apwszd.asia/blog/0727127.sHtMl
+
+原标题：golang 系统设计本地缓存更新失效方案实现
+简介：golang grafana 面板 go 业务指标可视化，prometheus 指标对接 grafana，配置监控面板可视化业务状态。
+ | 原文链接：http://book.apwszd.asia/blog/5271718.sHtMl
+
+原标题：线上异常：接口偶发超时，完整定位过程记录
+简介：golang lru 缓存淘汰算法编写，手写 LRU 缓存淘汰算法，实现本地缓存，淘汰最久未使用数据。
+ | 原文链接：http://book.apwszd.asia/blog/8594760.sHtMl
+
+原标题：golang 系统设计定时任务执行超时中断防护
+简介：git rebase 整理提交历史实操，使用 rebase 整理杂乱提交记录，将多条提交合并，保持 git 提交历史干净线性。
+ | 原文链接：http://book.apwszd.asia/blog/0717030.sHtMl
+
+原标题：golang 系统设计测试覆盖率目标合理设定思路
+简介：golang 漏桶算法实现接口限流，漏桶算法控制请求流出速率，平滑突发流量，削平流量峰值。
+ | 原文链接：http://book.apwszd.asia/blog/9605149.sHtMl
+
+原标题：golang proto 默认值坑点梳理
+简介：网关集成鉴权限流日志一体化，在网关层整合鉴权、限流、请求日志，统一对入口请求做管控处理。
+ | 原文链接：http://book.apwszd.asia/blog/1536248.sHtMl
+
+原标题：golang 系统设计分库分表中间件思路
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：http://book.apwszd.asia/blog/2646259.sHtMl
+
+原标题：golang 系统设计消息发送确认机制配置实操
+简介：golang time.Ticker 泄漏常见场景，忘记 Stop Ticker，导致协程泄漏，定时器资源无法释放。
+ | 原文链接：http://book.apwszd.asia/blog/2747350.sHtMl
+
+原标题：golang 数据库批量更新性能优化
+简介：golang 单例模式实现几种方式，Go 单例模式多种实现对比，sync.Once 等方式，实现全局唯一实例。
+ | 原文链接：http://book.apwszd.asia/blog/1434626.sHtMl
+
+原标题：golang 系统设计消息 key 选择保证顺序性方案
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：http://book.apwszd.asia/blog/1535972.sHtMl
+
+原标题：golang gin 路由分组权限管控
+简介：Nginx 透传真实客户端 IP 配置，配置 Nginx 把真实客户端 IP 传递后端服务，后端拿到访问者真实 IP。
+ | 原文链接：http://book.apwszd.asia/blog/0716971.sHtMl
+
+原标题：golang 系统设计字段命名类型选择最佳实践
+简介：golang fuzz corpus 语料库使用，fuzz 语料存储历史输入，回归测试，持续复现曾经触发 bug 输入。
+ | 原文链接：http://book.apwszd.asia/blog/9389160.sHtMl
+
+原标题：开发记录：JWT过期刷新滑动过期实现实践
+简介：golang go 死锁检测工具，静态检查、运行检测，发现 channel 锁导致死锁问题。
+ | 原文链接：http://book.apwszd.asia/blog/3174592.sHtMl
+
+原标题：golang 系统设计重试退避策略业务落地
+简介：golang arp 缓存读取操作，读取系统 arp 缓存表，获取 ip 对应的 mac 地址信息。
+ | 原文链接：http://book.apwszd.asia/blog/4389781.sHtMl
+
+原标题：golang redis 主从复制哨兵原理
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://book.apwszd.asia/blog/1857252.sHtMl
+
+原标题：ServiceWorker 缓存页面更新清理
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://book.apwszd.asia/blog/1836259.sHtMl
+
+原标题：日志输出规范防止磁盘爆满
+简介：golang kitex 超时重试熔断配置，kitex 配置调用超时、重试、熔断策略，保障微服务调用稳定性。
+ | 原文链接：http://book.apwszd.asia/blog/8524050.sHtMl
+
+原标题：Practice：实现简单信号处理优雅停机实践
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：http://book.apwszd.asia/blog/4380697.sHtMl
+
+原标题：开源实践：开源项目如何写好PullRequest
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://book.apwszd.asia/blog/1935859.sHtMl
+
+原标题：从零学习简单分布式ID生成思路
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://book.apwszd.asia/blog/4157369.sHtMl
+
+原标题：express 中间件开发业务实践
+简介：golang 数据库分表策略按时间分片，按时间维度分表，历史数据拆分，单表数据量控制保证查询性能。
+ | 原文链接：http://book.apwszd.asia/blog/5373637.sHtMl
+
+原标题：手写简易 MQ 理解消息存储消费
+简介：golang go 死锁检测工具，静态检查、运行检测，发现 channel 锁导致死锁问题。
+ | 原文链接：http://book.apwszd.asia/blog/8594675.sHtMl
+
+原标题：架构笔记：WebSocket大规模连接服务架构
+简介：限流窗口绕过漏洞修复方案，修复限流时间窗口漏洞，避免攻击者绕过限流规则，保障接口防护有效。
+ | 原文链接：http://book.apwszd.asia/blog/4868482.sHtMl
+
+原标题：golang 系统设计本地缓存更新失效方案实现
+简介：golang 文件上传下载接口开发，Go 开发文件上传下载接口，校验文件，处理文件读写存储逻辑。
+ | 原文链接：http://book.apwszd.asia/blog/1827072.sHtMl
+
+原标题：Hands‑on：本地模拟分布式锁失效场景测试
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：http://book.apwszd.asia/blog/6375849.sHtMl
+
+原标题：单元测试用例编写入门实操
+简介：golang go 程序容器资源 requests limits，设置容器 cpu 内存配额，防止实例抢占集群资源，稳定调度。
+ | 原文链接：http://book.apwszd.asia/blog/6372405.sHtMl
+
+原标题：部署复盘：GitHubActions完整自动化配置
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：http://book.apwszd.asia/blog/4279585.sHtMl
+
+原标题：golang 系统设计内存复用 sync.pool 使用
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：http://book.apwszd.asia/blog/3168482.sHtMl
+
+原标题：golang 系统设计 rest 状态码合理使用指南
+简介：golang os 打开文件 O_APPEND O_CREATE 标志，OpenFile 标志位，控制文件创建追加截断行为。
+ | 原文链接：http://book.apwszd.asia/blog/2646959.sHtMl
+
+原标题：实战项目：实现简单缓存服务缓存穿透击穿防护
+简介：Git 代码冲突正确处理方式，讲解冲突产生场景，演示冲突文件修改，正确合并代码，防止代码丢失。
+ | 原文链接：http://book.apwszd.asia/blog/7484760.sHtMl
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：http://book.apwszd.asia/blog/3708086.sHtMl
+
+原标题：golang 系统设计 csrf 接口防护实现
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://book.apwszd.asia/blog/4150373.sHtMl
+
+原标题：前端权限路由动态生成实现
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://book.apwszd.asia/blog/6480703.sHtMl
+
+原标题：golang docker 网络模式桥接 host
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://book.apwszd.asia/blog/8594860.sHtMl
+
+原标题：安全笔记：Git仓库密钥硬编码泄露处理方案
+简介：golang go 测试 t.Run 子测试分组，t.Run 实现子测试，分组执行用例，输出分组测试结果。
+ | 原文链接：http://book.apwszd.asia/blog/4183684.sHtMl
+
+四、架构设计｜Architecture
+原标题：Shell 脚本自动化命令编写
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://book.apwszd.asia/blog/4262413.sHtMl
+
+原标题：踩坑记录：CPU亲和配置不合理多核心负载不均
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://book.apwszd.asia/blog/6383638.sHtMl
+
+原标题：Issue：文件句柄耗尽，服务缓慢卡死复盘
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：http://book.apwszd.asia/blog/3049151.sHtMl
+
+原标题：运维笔记：系统内核参数调优生产服务器
+简介：golang go 爬虫 html 解析 goquery，goquery 解析 html 文档，css 选择器提取网页内容，实现网页数据抓取。
+ | 原文链接：http://book.apwszd.asia/blog/8236798.sHtMl
+
+原标题：Cookie Session 会话状态管理
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：http://book.apwszd.asia/blog/9334575.sHtMl
+
+原标题：文件读写与异常捕获代码示例
+简介：Nginx 丢失请求头配置修正，修复 Nginx 代理转发丢失请求头配置，保证上游服务拿到完整请求头信息。
+ | 原文链接：http://book.apwszd.asia/blog/1575870.sHtMl
+
+原标题：golang 链路追踪简易实现方案
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：http://book.apwszd.asia/blog/0457881.sHtMl
+
+原标题：golang mysql 防止 sql 注入实践
+简介：批量操作分批处理防止 OOM，大批量数据处理不一次性加载全部数据，分批循环处理，避免内存溢出。
+ | 原文链接：http://book.apwszd.asia/blog/7123354.sHtMl
+
+原标题：golang yaml 解析配置加载实操
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://book.apwszd.asia/blog/3027702.sHtMl
+
+原标题：部署复盘：配置热更新不用重启服务方案
+简介：站内邮件消息通知功能开发，实现站内消息、邮件通知推送，业务事件触发通知，提醒用户业务状态变更。
+ | 原文链接：http://book.apwszd.asia/blog/6483046.sHtMl
+
+原标题：踩坑：分布式事务状态不一致数据两边不一致
+简介：动态定时任务业务调度实现，实现可以动态增删启停定时任务，无需重启服务调整调度任务。
+ | 原文链接：http://book.apwszd.asia/blog/5150473.sHtMl
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：golang 接口限流中间件开发，Gin 开发限流中间件，接口层实现访问频率限制，防护接口流量。
+ | 原文链接：http://book.apwszd.asia/blog/0717069.sHtMl
+
+原标题：golang 系统设计创建更新时间自动维护方案
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：http://book.apwszd.asia/blog/2713470.sHtMl
+
+原标题：主干开发团队代码合并策略
+简介：golang wasm 浏览器 js 交互，go wasm 与 js 互相调用，浏览器端 go 程序操作 dom 调用 js 函数。
+ | 原文链接：http://book.apwszd.asia/blog/8268036.sHtMl
+
+原标题：入门实践：使用模板快速生成项目脚手架
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：http://book.apwszd.asia/blog/1725702.sHtMl
+
+原标题：开源实践：开源Issue沟通技巧如何有效提Bug
+简介：golang strings.Builder 字符串高效拼接，strings.Builder 做字符串拼接，比 += 性能更高，减少内存拷贝。
+ | 原文链接：http://book.apwszd.asia/blog/0792470.sHtMl
+
+原标题：多环境配置中心灵活切换方案
+简介：golang 读写分离 gorm 实现主从切换，gorm 配置主库写入从库查询，读写分离分担数据库查询压力。
+ | 原文链接：http://book.apwszd.asia/blog/3125715.sHtMl
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://book.apwszd.asia/blog/0492362.sHtMl
+
+?
