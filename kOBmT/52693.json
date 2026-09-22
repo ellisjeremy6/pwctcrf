@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：性能笔记：磁盘IO过高业务优化手段
+简介：服务健康检查告警监控体系，搭建健康检查加告警体系，服务异常及时推送告警通知运维人员。
+ | 原文链接：http://wap.anmurb.asia/blog/2816845.sHtMl
+
+原标题：入门实践：简单错误码设计与使用规范
+简介：golang 设置 net.Conn 读写超时，每次读写设置超时，防止连接永久阻塞挂起不返回。
+ | 原文链接：http://wap.anmurb.asia/blog/0424159.sHtMl
+
+原标题：安全笔记：XSS跨站脚本攻击防御落地实践
+简介：业务幂等键设计防重复逻辑，讲解幂等键设计思路，选择合适业务字段作为幂等标识，实现可靠防重复。
+ | 原文链接：http://wap.anmurb.asia/blog/5251426.sHtMl
+
+原标题：golang validator 自定义校验规则
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://wap.anmurb.asia/blog/0727860.sHtMl
+
+原标题：golang ci 流水线自动部署 k8s 示例
+简介：golang httptest 模拟外部 http 服务，httptest.NewServer 模拟第三方 http 服务，单元测试 mock 外部接口。
+ | 原文链接：http://wap.anmurb.asia/blog/8039104.sHtMl
+
+原标题：性能复盘：锁粒度太大，拆分细粒度锁优化
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://wap.anmurb.asia/blog/2627371.sHtMl
+
+原标题：部署复盘：服务启动顺序依赖处理方案
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：http://wap.anmurb.asia/blog/3950384.sHtMl
+
+原标题：golang docker 部署 mysql 注意事项
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：http://wap.anmurb.asia/blog/9694786.sHtMl
+
+原标题：golang 系统设计压测数据构造方法实现
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：http://wap.anmurb.asia/blog/5372589.sHtMl
+
+原标题：新手指南：本地防火墙端口访问失败排查
+简介：多环境配置中心灵活切换方案，简易配置中心实现，支持多套环境配置，动态下发无需重启服务。
+ | 原文链接：http://wap.anmurb.asia/blog/4149178.sHtMl
+
+原标题：开发复盘：导出大文件避免内存溢出实现方案
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：http://wap.anmurb.asia/blog/5199583.sHtMl
+
+原标题：golang k8s 网络策略网络隔离设置
+简介：golang ctx 关闭之后资源释放，context 取消后，监听 Done ()，释放 goroutine 网络 IO 资源。
+ | 原文链接：http://wap.anmurb.asia/blog/6482907.sHtMl
+
+原标题：动态定时任务业务调度实现
+简介：golang lru 缓存淘汰算法编写，手写 LRU 缓存淘汰算法，实现本地缓存，淘汰最久未使用数据。
+ | 原文链接：http://wap.anmurb.asia/blog/7368458.sHtMl
+
+原标题：从零搭建本地数据库开发环境
+简介：golang 工具函数库封装思路，Go 通用工具库封装思路，错误处理、类型转换，业务项目复用工具代码。
+ | 原文链接：http://wap.anmurb.asia/blog/1825138.sHtMl
+
+原标题：golang 系统设计 gob msgpack 序列化对比
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://wap.anmurb.asia/blog/7482504.sHtMl
+
+原标题：项目实践：消息队列消息确认机制业务实践
+简介：全平台系统环境变量配置，汇总多操作系统环境变量配置方法，统一项目读取逻辑，适配不同运行平台。
+ | 原文链接：http://wap.anmurb.asia/blog/6203574.sHtMl
+
+原标题：Troubleshoot：跨库关联查询，性能急剧恶化
+简介：golang gin 框架接口开发实战，Gin 框架搭建 HTTP 服务，开发增删改查接口，快速完成后端接口开发。
+ | 原文链接：http://wap.anmurb.asia/blog/9391706.sHtMl
+
+原标题：Practice：实现接口防重提交组件实践
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：http://wap.anmurb.asia/blog/9448170.sHtMl
+
+原标题：线上故障：Redis内存淘汰策略错误数据丢失
+简介：golang runtime.Gosched 主动让出调度，长计算循环主动 Gosched，让出调度权，防止其他协程饥饿。
+ | 原文链接：http://wap.anmurb.asia/blog/9594685.sHtMl
+
+原标题：新手教程：本地环境变量配置全流程
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：http://wap.anmurb.asia/blog/2045856.sHtMl
+
+原标题：golang mysql 慢查询日志开启分析
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：http://wap.anmurb.asia/blog/5612575.sHtMl
+
+原标题：golang 系统设计内部服务链路 trace 传递实现
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://wap.anmurb.asia/blog/4045458.sHtMl
+
+原标题：大文件导出内存溢出防护
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：http://wap.anmurb.asia/blog/8224333.sHtMl
+
+原标题：vite 项目配置与构建提速技巧
+简介：定时任务重复执行分布式锁，使用分布式锁控制定时任务，保证集群环境定时任务只会执行一次。
+ | 原文链接：http://wap.anmurb.asia/blog/7122265.sHtMl
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：http://wap.anmurb.asia/blog/9922008.sHtMl
+
+原标题：文件读写与异常捕获代码示例
+简介：golang 集成测试测试数据库回滚，集成测试结束自动回滚数据库，不污染测试环境数据。
+ | 原文链接：http://wap.anmurb.asia/blog/0771470.sHtMl
+
+原标题：golang mysql 避免 select * 查询
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://wap.anmurb.asia/blog/9679145.sHtMl
+
+原标题：golang redis 缓存击穿防护实现
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：http://wap.anmurb.asia/blog/3149260.sHtMl
+
+原标题：golang 系统设计开源版本发布 changelog 维护
+简介：golang 延迟队列实现方案对比，时间轮、redis zset 实现延迟队列，处理延时执行业务。
+ | 原文链接：http://wap.anmurb.asia/blog/1634149.sHtMl
+
+原标题：调优方案：消息批量消费提升MQ处理吞吐量
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：http://wap.anmurb.asia/blog/4391792.sHtMl
+
+原标题：记一次日志切割脚本错误直接清空业务日志
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：http://wap.anmurb.asia/blog/4350451.sHtMl
+
+原标题：golang 系统设计缓存 key 命名规范最佳实践
+简介：golang http client 连接池调优，调优 Go HTTP Client 连接池参数，复用 TCP 连接，减少连接创建开销。
+ | 原文链接：http://wap.anmurb.asia/blog/1705625.sHtMl
+
+原标题：golang 系统设计开源项目自动化 ci 配置示例
+简介：golang 大文件 HTTP 流式上传接收，服务端流式接收上传文件，不全部加载内存，防止大文件 OOM 崩溃。
+ | 原文链接：http://wap.anmurb.asia/blog/5281606.sHtMl
+
+原标题：踩坑记录：端口被占用导致服务启动失败
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：http://wap.anmurb.asia/blog/7142681.sHtMl
+
+原标题：golang docker 部署 mysql 注意事项
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://wap.anmurb.asia/blog/2131291.sHtMl
+
+原标题：Practice：模拟热点key，验证缓存防护策略
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：http://wap.anmurb.asia/blog/9816868.sHtMl
+
+原标题：静态博客部署 GitHub Pages 教程
+简介：golang go 爬虫 robots 协议遵守，解析 robots.txt 规则，控制爬虫抓取范围，合规采集网页数据。
+ | 原文链接：http://wap.anmurb.asia/blog/1936858.sHtMl
+
+原标题：Troubleshoot：CPU调度频繁上下文切换性能下降
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://wap.anmurb.asia/blog/3935980.sHtMl
+
+原标题：golang http 请求重试封装工具
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://wap.anmurb.asia/blog/8690572.sHtMl
+
+原标题：HelloCI：理解持续集成基础工作流程
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：http://wap.anmurb.asia/blog/6370280.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计 http1.1 http2 核心差异讲解
+简介：golang go 优雅处理信号丢失场景，处理信号丢失、信号被忽略，保障程序可以正常接收终止信号。
+ | 原文链接：http://wap.anmurb.asia/blog/4148161.sHtMl
+
+原标题：golang docker volume 数据持久化
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：http://wap.anmurb.asia/blog/0729172.sHtMl
+
+原标题：golang 系统设计网关路由规则动态配置实现
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：http://wap.anmurb.asia/blog/8583747.sHtMl
+
+原标题：安全实践：接口错误信息不要暴露内部细节
+简介：CLI 批量处理工具文件操作开发，开发命令行批量工具，实现批量文件处理，提升重复文件处理效率。
+ | 原文链接：http://wap.anmurb.asia/blog/4904514.sHtMl
+
+原标题：golang 系统设计监控体系指标分类方法论梳理
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：http://wap.anmurb.asia/blog/6373737.sHtMl
+
+原标题：调优方案：容器CPU内存参数压测后调优
+简介：golang go mod graph 可视化依赖图，可视化 go 依赖关系，直观看到包之间依赖，定位冲突。
+ | 原文链接：http://wap.anmurb.asia/blog/9616159.sHtMl
+
+原标题：架构笔记：任务调度系统架构设计与可靠性
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：http://wap.anmurb.asia/blog/3056351.sHtMl
+
+原标题：Mock 接口服务快速搭建实操
+简介：包管理器依赖冲突解决方案，分析依赖冲突产生根源，提供版本调整、锁定依赖等手段，解决项目依赖报错问题。
+ | 原文链接：http://wap.anmurb.asia/blog/2929060.sHtMl
+
+原标题：效率笔记：Git高级命令日常开发高频使用汇总
+简介：golang 漏桶算法实现接口限流，漏桶算法控制请求流出速率，平滑突发流量，削平流量峰值。
+ | 原文链接：http://wap.anmurb.asia/blog/6590486.sHtMl
+
+原标题：golang 系统设计日志系统架构思路
+简介：golang goroutine 池任务调度，实现 goroutine 池，复用协程，频繁任务场景减少协程创建销毁开销。
+ | 原文链接：http://wap.anmurb.asia/blog/9603715.sHtMl
+
+原标题：方案设计：分布式分页查询架构难点处理
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://wap.anmurb.asia/blog/4059283.sHtMl
+
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：http://wap.anmurb.asia/blog/3857257.sHtMl
+
+原标题：golang 系统设计高可用服务架构梳理
+简介：golang 字符编码转换 go 处理，iconv‑go 做编码转换 gbk utf8 互转，处理老旧系统 gbk 编码数据。
+ | 原文链接：http://wap.anmurb.asia/blog/6483813.sHtMl
+
+原标题：避坑：预编译SQL失效，出现SQL注入风险
+简介：容器资源限制防止宿主机过载，设置容器 CPU 内存资源上限，避免单个容器耗尽宿主机全部硬件资源。
+ | 原文链接：http://wap.anmurb.asia/blog/1715930.sHtMl
+
+原标题：架构笔记：海量消息堆积架构处理能力设计
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：http://wap.anmurb.asia/blog/6360359.sHtMl
+
+原标题：开发记录：敏感数据加密存储解密业务实践
+简介：Docker 网络模式容器互通设置，选择合适 Docker 网络模式，实现容器之间网络互相访问通信。
+ | 原文链接：http://wap.anmurb.asia/blog/1611794.sHtMl
+
+原标题：实践：灰度流量切分简易实现方案
+简介：nodejs 内存溢出问题排查修复，Node.js 程序 OOM 排查流程，定位内存泄露，调整内存限制修复崩溃。
+ | 原文链接：http://wap.anmurb.asia/blog/4250361.sHtMl
+
+原标题：实践：消息队列死信处理业务落地实践
+简介：全局本地依赖隔离冲突规避，区分全局依赖与项目本地依赖，隔离环境，防止全局包干扰项目运行。
+ | 原文链接：http://wap.anmurb.asia/blog/3034256.sHtMl
+
+原标题：golang 系统设计数据库慢请求排查流程
+简介：golang multipart 表单文件上传解析，服务端解析 multipart 表单，获取上传文件与表单字段。
+ | 原文链接：http://wap.anmurb.asia/blog/6380607.sHtMl
+
+原标题：设计思考：业务系统如何做故障隔离架构
+简介：文件句柄耗尽资源泄露处理，定位文件句柄泄露，修复文件忘记关闭问题，解决句柄耗尽服务报错。
+ | 原文链接：http://wap.anmurb.asia/blog/5253625.sHtMl
+
+原标题：多线程线程安全脏数据规避
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：http://wap.anmurb.asia/blog/1814727.sHtMl
+
+原标题：开发记录：敏感数据加密存储解密业务实践
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://wap.anmurb.asia/blog/2939239.sHtMl
+
+原标题：golang mysql 行锁表锁场景区分
+简介：CLI 批量处理工具文件操作开发，开发命令行批量工具，实现批量文件处理，提升重复文件处理效率。
+ | 原文链接：http://wap.anmurb.asia/blog/2839419.sHtMl
+
+原标题：新手指南：本地多版本环境共存配置
+简介：golang gif 图片帧处理操作，解析 gif 图片帧，压缩、拆分 gif 动图，处理动图业务。
+ | 原文链接：http://wap.anmurb.asia/blog/6081262.sHtMl
+
+原标题：golang k8s 镜像拉取密钥配置
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：http://wap.anmurb.asia/blog/1839033.sHtMl
+
+原标题：nodejs 接口限流防刷代码实现
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：http://wap.anmurb.asia/blog/5979022.sHtMl
+
+原标题：性能复盘：慢SQL定位、分析、改写完整案例
+简介：nestjs 框架模块化项目搭建，从零搭建 NestJS 项目，模块化拆分业务，搭建规范后端项目骨架。
+ | 原文链接：http://wap.anmurb.asia/blog/9362364.sHtMl
+
+原标题：golang 系统设计 tcc 事务简单原理业务示例
+简介：golang ioutil 已废弃替换方案，ioutil 废弃之后替换为 os io 包函数，更新旧项目代码。
+ | 原文链接：http://wap.anmurb.asia/blog/4150293.sHtMl
+
+原标题：golang 系统设计重试退避策略业务落地
+简介：golang go 自定义错误类型实现，自定义 error 结构体，携带错误码、堆栈信息，统一业务错误。
+ | 原文链接：http://wap.anmurb.asia/blog/9592737.sHtMl
+
+原标题：CI 流水线构建失败日志排查
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://wap.anmurb.asia/blog/9736048.sHtMl
+
+原标题：golang 系统设计版本号语义化规范讲解
+简介：缓存过期打散防止缓存雪崩，对缓存过期时间增加随机偏移，避免大量缓存同时失效引发缓存雪崩。
+ | 原文链接：http://wap.anmurb.asia/blog/8293408.sHtMl
+
+原标题：架构思考：单体应用向微服务拆分演进路径
+简介：golang 时间时区处理避坑指南，Go 时间时区常见坑，时区转换，时间比较，规避时间逻辑错误。
+ | 原文链接：http://wap.anmurb.asia/blog/7040393.sHtMl
+
+原标题：golang 系统设计日志采样降低存储开销方案
+简介：golang os 环境变量读取设置，os.Getenv os.Setenv os.Unsetenv 读写环境变量，环境变量多值处理。
+ | 原文链接：http://wap.anmurb.asia/blog/4140282.sHtMl
+
+原标题：快速入门gRPC基础概念与简单示例
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：http://wap.anmurb.asia/blog/2925037.sHtMl
+
+原标题：Architecture：服务注册发现架构原理与选型
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://wap.anmurb.asia/blog/7380693.sHtMl
+
+原标题：设计思考：业务系统如何设计优雅失败架构
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://wap.anmurb.asia/blog/1824626.sHtMl
+
+原标题：golang 系统设计延迟队列业务实现
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://wap.anmurb.asia/blog/3930130.sHtMl
+
+原标题：golang 系统设计灰度发布实现思路
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://wap.anmurb.asia/blog/3073682.sHtMl
+
+原标题：golang 系统设计内存复用 sync.pool 使用
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://wap.anmurb.asia/blog/7484659.sHtMl
+
+原标题：开发复盘：内存缓存LRU淘汰策略实现实践
+简介：golang http.Server 配置参数详解，ReadTimeout WriteTimeout IdleTimeout，全方位防护慢请求攻击。
+ | 原文链接：http://wap.anmurb.asia/blog/3059404.sHtMl
+
+三、实战开发｜Practice
+原标题：线上异常：时间时区问题，定时任务执行偏移
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://wap.anmurb.asia/blog/2925027.sHtMl
+
+原标题：GraphQL 接口查询优化实操
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：http://wap.anmurb.asia/blog/3006850.sHtMl
+
+原标题：定时任务周期调度 demo 开发
+简介：golang http 重定向策略自定义，CheckRedirect 自定义重定向逻辑，限制重定向次数，防止死循环。
+ | 原文链接：http://wap.anmurb.asia/blog/8392704.sHtMl
+
+原标题：golang etcd 租约 lease 过期机制
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://wap.anmurb.asia/blog/8517061.sHtMl
+
+原标题：golang 系统设计开源 issue 处理回复沟通技巧
+简介：golang nats jetstream 持久消息队列，nats jetstream 持久化消息，保证消息不丢失，实现可靠消费。
+ | 原文链接：http://wap.anmurb.asia/blog/0716148.sHtMl
+
+原标题：设计思考：容器化业务应用架构改造要点
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://wap.anmurb.asia/blog/7592920.sHtMl
+
+原标题：golang 系统设计告警升级通知策略配置思路
+简介：灰度发布策略服务平滑升级，实现灰度发布逻辑，流量逐步切到新版本，出现问题快速回滚旧版本。
+ | 原文链接：http://wap.anmurb.asia/blog/0703816.sHtMl
+
+原标题：安全复盘：环境变量密钥泄露风险与防护
+简介：golang pprof 线上采集性能数据，线上环境采集 pprof 性能样本，不用停机，分析线上性能问题。
+ | 原文链接：http://wap.anmurb.asia/blog/5869969.sHtMl
+
+原标题：Practice：模拟第三方接口超时服务降级验证
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：http://wap.anmurb.asia/blog/8291394.sHtMl
+
+原标题：golang 系统设计接口不兼容平滑迁移方案
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：http://wap.anmurb.asia/blog/0727250.sHtMl
+
+原标题：golang rate‑limiter 限流组件
+简介：golang tcp keepalive 参数程序配置，go 程序设置 tcp keepalive，操作系统 tcp 保活参数，清理僵死连接。
+ | 原文链接：http://wap.anmurb.asia/blog/8481693.sHtMl
+
+原标题：设计思考：防雪崩，系统过载保护架构设计
+简介：golang go 程序权限最小化运行，容器内使用普通用户运行程序，拒绝 root 运行提升安全等级。
+ | 原文链接：http://wap.anmurb.asia/blog/0712796.sHtMl
+
+原标题：Security：反序列化漏洞风险识别与规避
+简介：golang 灰度发布流量权重路由实现，根据权重切分流量，部分流量访问新版本服务，实现灰度发布。
+ | 原文链接：http://wap.anmurb.asia/blog/8591615.sHtMl
+
+原标题：Hands‑on：简易配置热更新组件开发实践
+简介：安全组端口开放网络访问，调整服务器安全组规则，开放业务需要端口，恢复外部网络访问服务。
+ | 原文链接：http://wap.anmurb.asia/blog/5901704.sHtMl
+
+原标题：安全实践：敏感信息加密存储传输完整方案
+简介：golang benchmark 参数‑bench‑mem 统计内存分配，benchmark 开启内存统计，观察内存分配次数大小。
+ | 原文链接：http://wap.anmurb.asia/blog/4879371.sHtMl
+
+原标题：Nginx 请求头大小上限调整
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://wap.anmurb.asia/blog/0414917.sHtMl
+
+原标题：架构笔记：数据库连接池架构参数调优思路
+简介：nodejs 事件循环机制完整讲解，拆解 Node.js 事件循环各个阶段，理解异步回调执行顺序。
+ | 原文链接：http://wap.anmurb.asia/blog/4739067.sHtMl
+
+原标题：YAML 配置文件语法快速上手
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：http://wap.anmurb.asia/blog/9824926.sHtMl
+
+原标题：Redis 大 key 拆分集群卡顿解决
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：http://wap.anmurb.asia/blog/3947361.sHtMl
+
+原标题：从零搭建本地数据库开发环境
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：http://wap.anmurb.asia/blog/2937252.sHtMl
+
+原标题：服务健康检查告警监控体系
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://wap.anmurb.asia/blog/2937252.sHtMl
+
+原标题：项目实践：Docker镜像安全扫描本地实操
+简介：golang go mod graph 查看依赖关系，go mod graph 打印依赖树，定位间接依赖来源，解决版本冲突。
+ | 原文链接：http://wap.anmurb.asia/blog/4157950.sHtMl
+
+原标题：Troubleshooting：K8sPodOOMKilled完整排查流程
+简介：golang 优雅处理 http 超时设置，Go HTTP 请求设置各类超时，防止请求无限阻塞，保护协程与连接。
+ | 原文链接：http://wap.anmurb.asia/blog/9718950.sHtMl
+
+原标题：部署实践：容器时区统一配置解决方案
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://wap.anmurb.asia/blog/1825042.sHtMl
+
+原标题：架构笔记：多环境隔离架构开发测试生产隔离
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：http://wap.anmurb.asia/blog/4160515.sHtMl
+
+原标题：开发记录：文件锁实现多进程互斥实践
+简介：CI 流水线超时时间延长配置，调大 CI 任务超时阈值，解决构建任务耗时较长被流水线强制终止。
+ | 原文链接：http://wap.anmurb.asia/blog/8602494.sHtMl
+
+原标题：方案对比：本地缓存vs分布式缓存架构取舍
+简介：golang os 环境变量读取设置，os.Getenv os.Setenv os.Unsetenv 读写环境变量，环境变量多值处理。
+ | 原文链接：http://wap.anmurb.asia/blog/0714915.sHtMl
+
+原标题：新手向：看懂项目README的正确阅读姿势
+简介：golang context.WithTimeout 超时上下文，WithTimeout 设置超时时间，超时自动 cancel 释放协程。
+ | 原文链接：http://wap.anmurb.asia/blog/1505027.sHtMl
+
+原标题：axios 二次封装请求拦截处理
+简介：golang hertz http 框架快速上手，hertz 高性能 http 框架，路由中间件参数校验快速开发接口服务。
+ | 原文链接：http://wap.anmurb.asia/blog/7493737.sHtMl
+
+原标题：golang 系统设计日志脱敏敏感字段过滤处理
+简介：GET POST 接口请求参数处理，讲解两种请求方式参数传递区别，演示参数接收、解析、校验，适配不同接口调用场景。
+ | 原文链接：http://wap.anmurb.asia/blog/0271292.sHtMl
+
+原标题：部署复盘：静态资源版本哈希缓存策略
+简介：golang http 代理客户端配置，Go HTTP Client 配置代理，通过代理服务器发起网络请求。
+ | 原文链接：http://wap.anmurb.asia/blog/9191604.sHtMl
+
+原标题：无用对象回收抑制内存上涨
+简介：golang os/exec 安全执行外部命令，规避命令注入漏洞，参数分离，禁止拼接命令字符串执行。
+ | 原文链接：http://wap.anmurb.asia/blog/3038063.sHtMl
+
+原标题：实战：容器内执行调试排错完整实操流程
+简介：golang go 死锁检测工具，静态检查、运行检测，发现 channel 锁导致死锁问题。
+ | 原文链接：http://wap.anmurb.asia/blog/6369460.sHtMl
+
+原标题：零基础理解JSON、XML数据格式处理
+简介：golang mongodb go 驱动实操教程，mongo‑go‑driver 操作 mongodb，文档增删改查聚合查询。
+ | 原文链接：http://wap.anmurb.asia/blog/2161283.sHtMl
+
+原标题：线上接口超时故障排查思路
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：http://wap.anmurb.asia/blog/7140271.sHtMl
+
+原标题：golang docker compose 部署 minio
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：http://wap.anmurb.asia/blog/1424928.sHtMl
+
+原标题：golang 信号捕获程序退出处理
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：http://wap.anmurb.asia/blog/8251314.sHtMl
+
+原标题：golang 参数校验业务接口处理
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://wap.anmurb.asia/blog/7603413.sHtMl
+
+原标题：实战项目：编写Dockerfile多阶段构建减小镜像体积
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://wap.anmurb.asia/blog/6371695.sHtMl
+
+原标题：golang 系统设计 webhook 回调处理架构
+简介：Docker Compose 一键搭建本地栈，使用 Compose 编排多个容器，一键拉起全套开发依赖服务。
+ | 原文链接：http://wap.anmurb.asia/blog/5169061.sHtMl
+
+四、架构设计｜Architecture
+原标题：前端国际化多语言方案落地
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://wap.anmurb.asia/blog/0849170.sHtMl
+
+原标题：数据库事务 ACID 原理讲解
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：http://wap.anmurb.asia/blog/3147858.sHtMl
+
+原标题：golang minio 预签名 url 临时访问
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://wap.anmurb.asia/blog/3936171.sHtMl
+
+原标题：DevOps：制品仓库管理二进制产物版本
+简介：系统时间同步定时任务偏移，同步服务器系统时间，防止时间偏移，避免定时任务执行时间错乱。
+ | 原文链接：http://wap.anmurb.asia/blog/1818179.sHtMl
+
+原标题：方案设计：统一ID生成服务架构对比雪花算法
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://wap.anmurb.asia/blog/7481592.sHtMl
+
+原标题：设计思考：业务系统如何设计优雅失败架构
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：http://wap.anmurb.asia/blog/8547847.sHtMl
+
+原标题：开发复盘：分布式会话共享多种方案实践
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://wap.anmurb.asia/blog/7140283.sHtMl
+
+原标题：容器内存扩容 OOM 被杀死修复
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：http://wap.anmurb.asia/blog/4163403.sHtMl
+
+原标题：大事务拆分回滚日志暴涨解决
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://wap.anmurb.asia/blog/6371846.sHtMl
+
+原标题：golang 系统设计网关鉴权鉴权转发流程讲解
+简介：golang rabbitmq 死信队列延迟消息，rabbitmq 实现死信、延迟消息，处理延时业务场景。
+ | 原文链接：http://wap.anmurb.asia/blog/2824626.sHtMl
+
+原标题：新手指南：项目本地编译输出产物解析
+简介：Git 误提交撤销回退实操教程，演示多种撤销提交方式，区分已经推送远程和本地未提交场景，处理误提交代码。
+ | 原文链接：http://wap.anmurb.asia/blog/4152391.sHtMl
+
+原标题：golang docker 部署 prometheus 整套
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://wap.anmurb.asia/blog/1525041.sHtMl
+
+原标题：坑点：Git仓库过大，clone速度极慢解决方案
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：http://wap.anmurb.asia/blog/3900113.sHtMl
+
+原标题：golang redis 批量 pipeline 实践
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：http://wap.anmurb.asia/blog/0347578.sHtMl
+
+原标题：快速上手调试工具定位简单代码错误
+简介：vue3 组合式 API 业务开发实战，Vue3 组合式 API 业务实战示例，拆分业务逻辑组合复用，提升代码组织。
+ | 原文链接：http://wap.anmurb.asia/blog/6709012.sHtMl
+
+原标题：golang 系统设计基准测试 benchmark 编写
+简介：缓存穿透击穿雪崩全套防护，完整梳理缓存三大问题，落地全套防护策略，保障缓存层稳定运行。
+ | 原文链接：http://wap.anmurb.asia/blog/2596704.sHtMl
+
+原标题：性能复盘：GC停顿过长业务卡顿优化记录
+简介：定时任务周期调度 demo 开发，实现简单定时调度程序，按时间周期执行业务逻辑，理解定时任务运行机制。
+ | 原文链接：http://wap.anmurb.asia/blog/1836150.sHtMl
+
+原标题：golang 系统设计告警风暴抑制合并降噪方案
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://wap.anmurb.asia/blog/9617069.sHtMl
+
+?
