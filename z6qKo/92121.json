@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：K8s 镜像拉取网络故障修复
+简介：golang 时间轮算法实现延时调度，手写简易时间轮，高并发大量延时任务，降低轮询 CPU 消耗。
+ | 原文链接：http://book.kjagen.asia/blog/3123345.sHtMl
+
+原标题：golang gin 框架接口开发实战
+简介：Nginx 反向代理路由配置实战，配置 Nginx 反向代理，实现请求转发、路由分发，掌握 Nginx 基础配置能力。
+ | 原文链接：http://book.kjagen.asia/blog/6988908.sHtMl
+
+原标题：golang 系统设计锁优化减少竞争提升吞吐
+简介：游标分页大数据查询性能提升，使用游标分页替代偏移分页，解决大数据 offset 分页性能越来越差问题。
+ | 原文链接：http://book.kjagen.asia/blog/1445688.sHtMl
+
+原标题：ICMP 放通网络丢包问题修复
+简介：golang 命令行参数解析开发，解析命令行入参，开发自定义 CLI 程序，读取启动参数配置服务。
+ | 原文链接：http://book.kjagen.asia/blog/7471492.sHtMl
+
+原标题：golang 系统设计接口频率限制业务落地
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://book.kjagen.asia/blog/2823017.sHtMl
+
+原标题：实战项目：本地模拟磁盘IO高负载观察服务行为
+简介：开发环境变量配置全平台教程，区分 Windows、macOS、Linux 系统，讲解环境变量配置、加载优先级与常见失效原因。
+ | 原文链接：http://book.kjagen.asia/blog/7078460.sHtMl
+
+原标题：golang docker 部署 mysql 注意事项
+简介：golang trace 工具采集 go 程序执行轨迹，go trace 采集程序完整调度轨迹，分析协程调度阻塞问题。
+ | 原文链接：http://book.kjagen.asia/blog/6360383.sHtMl
+
+原标题：Practice：实现定时任务动态启停管理接口
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：http://book.kjagen.asia/blog/6261252.sHtMl
+
+原标题：golang redis 缓存穿透解决方案
+简介：golang 信号触发配置重载实践，收到 SIGUSR1 信号重新加载配置，线上无需重启刷新配置。
+ | 原文链接：http://book.kjagen.asia/blog/7402707.sHtMl
+
+原标题：nodejs 多进程任务分发处理
+简介：CLI 批量处理工具文件操作开发，开发命令行批量工具，实现批量文件处理，提升重复文件处理效率。
+ | 原文链接：http://book.kjagen.asia/blog/1716837.sHtMl
+
+原标题：批量操作分批处理防止 OOM
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://book.kjagen.asia/blog/4034948.sHtMl
+
+原标题：实践：Git大仓库历史清理减小仓库体积实践
+简介：golang http 中间件洋葱模型原理，理解 go http 中间件洋葱模型，请求响应流转顺序，编写自定义中间件。
+ | 原文链接：http://book.kjagen.asia/blog/0704946.sHtMl
+
+原标题：golang 系统设计秒杀防超卖方案
+简介：golang cgroup 读取容器资源限制，go 程序读取 cgroup，获取容器 cpu 内存限额，适配容器环境。
+ | 原文链接：http://book.kjagen.asia/blog/2812724.sHtMl
+
+原标题：服务健康检查监控接口开发
+简介：Redis 热点 key 拆分降低集群压力，拆分访问量极高的热点 Key，分散请求压力，避免 Redis 节点压力过高。
+ | 原文链接：http://book.kjagen.asia/blog/5189450.sHtMl
+
+原标题：实战项目：前端资源打包体积优化完整实操
+简介：ICMP 放通网络丢包问题修复，放开 ICMP 协议，解决 MTU 问题导致网络丢包，修复网络不稳定现象。
+ | 原文链接：http://book.kjagen.asia/blog/7350382.sHtMl
+
+原标题：Practice：实现异步回调处理通用组件封装
+简介：golang gzip 压缩 http 响应，服务端开启 gzip 压缩，减小接口响应体积，降低网络传输耗时。
+ | 原文链接：http://book.kjagen.asia/blog/6361414.sHtMl
+
+原标题：golang 系统设计链路查询定位慢请求实操技巧
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：http://book.kjagen.asia/blog/9693038.sHtMl
+
+原标题：golang 配置文件多环境加载
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://book.kjagen.asia/blog/2695027.sHtMl
+
+原标题：设计思考：业务系统如何设计优雅失败架构
+简介：OOMKilled 容器被杀完整排查，排查容器被 OOM 终止完整流程，区分程序内存泄露和容器内存限制过小。
+ | 原文链接：http://book.kjagen.asia/blog/8400614.sHtMl
+
+原标题：设计思考：系统幂等性整体架构层面保障
+简介：golang 字符编码转换 go 处理，iconv‑go 做编码转换 gbk utf8 互转，处理老旧系统 gbk 编码数据。
+ | 原文链接：http://book.kjagen.asia/blog/0634029.sHtMl
+
+原标题：项目实践：Docker多环境镜像构建策略实践
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：http://book.kjagen.asia/blog/7293403.sHtMl
+
+原标题：实战项目：前端资源打包体积优化完整实操
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：http://book.kjagen.asia/blog/4040573.sHtMl
+
+原标题：golang 系统设计基准测试 benchmark 编写
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://book.kjagen.asia/blog/9482795.sHtMl
+
+原标题：灰度发布策略服务平滑升级
+简介：golang docker 多阶段构建 go 镜像，Go 项目 Docker 多阶段构建，编译与运行阶段分离，大幅度缩减最终镜像体积，提升镜像分发效率。
+ | 原文链接：http://book.kjagen.asia/blog/4738061.sHtMl
+
+原标题：快速上手搭建简易内网测试服务
+简介：静态博客部署 GitHub Pages 教程，将静态博客项目部署至 GitHub Pages，完成线上访问，快速搭建个人技术博客站点。
+ | 原文链接：http://book.kjagen.asia/blog/4746347.sHtMl
+
+原标题：项目实践：Docker多环境镜像构建策略实践
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：http://book.kjagen.asia/blog/4360271.sHtMl
+
+原标题：golang 系统设计缓存 key 淘汰雪崩防护思路
+简介：前端组件库按需加载性能优化，配置组件库按需引入，避免引入全部组件，减少打包产物体积。
+ | 原文链接：http://book.kjagen.asia/blog/6372493.sHtMl
+
+原标题：golang 系统设计秒杀防超卖方案
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：http://book.kjagen.asia/blog/3045148.sHtMl
+
+原标题：golang 简单爬虫请求防封禁
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://book.kjagen.asia/blog/9594627.sHtMl
+
+原标题：架构笔记：冷热数据分离架构设计与迁移
+简介：webpack chunk 分包策略详解，讲解 webpack chunk 分包策略，拆分第三方包与业务代码，优化缓存复用。
+ | 原文链接：http://book.kjagen.asia/blog/6910237.sHtMl
+
+原标题：静态博客部署 GitHub Pages 教程
+简介：golang http 服务优雅关闭完整示例，接收终止信号，停止接收新请求，等待现有请求处理完毕后退出服务。
+ | 原文链接：http://book.kjagen.asia/blog/4701022.sHtMl
+
+原标题：项目实践：实现统一接口返回封装与全局异常处理
+简介：golang jaeger 链路追踪部署对接，jaeger 接收 opentelemetry 链路数据，可视化完整调用链路。
+ | 原文链接：http://book.kjagen.asia/blog/3697911.sHtMl
+
+原标题：golang 系统设计 protobuf json 性能对比
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：http://book.kjagen.asia/blog/9223125.sHtMl
+
+原标题：RPC 报文大小上限调优大请求
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：http://book.kjagen.asia/blog/6130092.sHtMl
+
+原标题：golang k8s 网络策略网络隔离设置
+简介：golang 结构体 json 序列化坑点，梳理 Go 结构体 JSON 序列化高频坑点，字段大小写、零值处理问题。
+ | 原文链接：http://book.kjagen.asia/blog/7472582.sHtMl
+
+原标题：golang 文件上传下载接口开发
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：http://book.kjagen.asia/blog/0716859.sHtMl
+
+原标题：实战：Redis集群本地搭建与功能验证
+简介：golang grpc metadata 元数据透传，metadata 传递 traceId、鉴权信息，全链路透传上下文信息。
+ | 原文链接：http://book.kjagen.asia/blog/4369281.sHtMl
+
+原标题：安全实践：最小权限原则数据库账号管控
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://book.kjagen.asia/blog/7471382.sHtMl
+
+原标题：Practice：实现接口幂等性多种方案对比实践
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：http://book.kjagen.asia/blog/6301914.sHtMl
+
+原标题：容器内存扩容 OOM 被杀死修复
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://book.kjagen.asia/blog/4867936.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang minio 存储桶权限管控配置
+简介：多线程线程安全脏数据规避，梳理多线程共享变量，做好同步控制，避免并发修改产生脏数据。
+ | 原文链接：http://book.kjagen.asia/blog/0645352.sHtMl
+
+原标题：踩坑：大报文传输，RPC消息超过大小限制
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://book.kjagen.asia/blog/3038069.sHtMl
+
+原标题：DevOps：CI构建产物缓存复用加速编译
+简介：动态定时任务业务调度实现，实现可以动态增删启停定时任务，无需重启服务调整调度任务。
+ | 原文链接：http://book.kjagen.asia/blog/0626137.sHtMl
+
+原标题：golang gin 中间件执行顺序讲解
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：http://book.kjagen.asia/blog/7371684.sHtMl
+
+原标题：golang 大文件读取内存优化
+简介：业务错误码完整落地实践，落地完整业务错误码，枚举全部业务异常，统一返回，配套文档说明。
+ | 原文链接：http://book.kjagen.asia/blog/4149169.sHtMl
+
+原标题：部署复盘：容器资源限制CPU内存配置实践
+简介：golang fasthttp 客户端连接池调优，fasthttp 客户端连接池配置，复用连接提升请求性能。
+ | 原文链接：http://book.kjagen.asia/blog/6267273.sHtMl
+
+原标题：Performance：批量导入数据性能优化实践
+简介：golang go 二进制安全 strip 减小体积，strip 剥离二进制调试符号，缩小程序二进制文件体积。
+ | 原文链接：http://book.kjagen.asia/blog/9594725.sHtMl
+
+原标题：Nginx 丢失请求头配置修正
+简介：golang go regexp 正则预编译，regexp.MustCompile 预编译正则，不要循环内部编译正则，节省 CPU。
+ | 原文链接：http://book.kjagen.asia/blog/6473706.sHtMl
+
+原标题：golang 系统设计单元测试 mock 外部依赖技巧
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：http://book.kjagen.asia/blog/9582817.sHtMl
+
+原标题：零基础理解数据库事务基础ACID概念
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：http://book.kjagen.asia/blog/5189390.sHtMl
+
+原标题：实战：gRPC服务编写客户端服务端完整demo
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：http://book.kjagen.asia/blog/5189399.sHtMl
+
+原标题：golang csv 读写批量数据处理
+简介：多环境配置中心灵活切换方案，简易配置中心实现，支持多套环境配置，动态下发无需重启服务。
+ | 原文链接：http://book.kjagen.asia/blog/3149160.sHtMl
+
+原标题：数据库排序规则统一结果一致
+简介：golang go 整洁架构代码组织实践，整洁架构依赖向内，解耦业务逻辑与外部基础设施。
+ | 原文链接：http://book.kjagen.asia/blog/7483785.sHtMl
+
+原标题：golang redis pipeline 批量操作
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://book.kjagen.asia/blog/9605737.sHtMl
+
+原标题：golang prometheus counter gauge 使用
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：http://book.kjagen.asia/blog/5159382.sHtMl
+
+原标题：golang 系统设计延迟队列业务实现
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://book.kjagen.asia/blog/1845031.sHtMl
+
+原标题：golang 系统设计压测指标确定与分析
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：http://book.kjagen.asia/blog/1711782.sHtMl
+
+原标题：golang base64 编码解码实操
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://book.kjagen.asia/blog/1816837.sHtMl
+
+原标题：golang 系统设计密码存储哈希加盐实现
+简介：跨平台换行符统一异常修复，统一代码文件换行符，解决不同操作系统换行符不一致带来脚本执行异常。
+ | 原文链接：http://book.kjagen.asia/blog/5250270.sHtMl
+
+原标题：Issue：文件编码混合GBKUTF‑8乱码随机出现
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：http://book.kjagen.asia/blog/7372402.sHtMl
+
+原标题：Security：密码存储哈希加盐最佳实践
+简介：多线程线程安全脏数据规避，梳理多线程共享变量，做好同步控制，避免并发修改产生脏数据。
+ | 原文链接：http://book.kjagen.asia/blog/2351780.sHtMl
+
+原标题：Architecture：链路追踪架构核心组件与埋点
+简介：golang net/http 超时全套配置，完整配置 Go HTTP 服务读写空闲超时，全方位防止请求挂住。
+ | 原文链接：http://book.kjagen.asia/blog/5462291.sHtMl
+
+原标题：排错：macOS权限保护导致脚本执行被拦截
+简介：golang go 自定义错误类型实现，自定义 error 结构体，携带错误码、堆栈信息，统一业务错误。
+ | 原文链接：http://book.kjagen.asia/blog/1423023.sHtMl
+
+原标题：golang jaeger 链路追踪 go 接入
+简介：golang jwt 鉴权中间件完整示例，Gin JWT 鉴权中间件，令牌校验，解析用户信息，接口鉴权拦截。
+ | 原文链接：http://book.kjagen.asia/blog/8164456.sHtMl
+
+原标题：零基础理解前后端简单交互流程
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://book.kjagen.asia/blog/4567786.sHtMl
+
+原标题：设计思考：系统降级开关架构设计快速切流量
+简介：golang go‑fuzz 模糊测试开发，go fuzz 模糊测试，自动构造异常输入，发现代码隐藏 bug。
+ | 原文链接：http://book.kjagen.asia/blog/2489237.sHtMl
+
+原标题：文件分片上传断点续传功能
+简介：golang 数据库连接耗尽排查思路，监控连接池状态，定位连接未归还，解决连接耗尽报错。
+ | 原文链接：http://book.kjagen.asia/blog/1367080.sHtMl
+
+原标题：golang 系统设计 tcp 粘包拆包处理方案实现
+简介：前后端交互跨域问题完整处理，讲解跨域产生原理，列举多种解决方案，适配开发、生产不同环境的跨域处理。
+ | 原文链接：http://book.kjagen.asia/blog/9705946.sHtMl
+
+原标题：nodejs 脚手架工具开发完整教程
+简介：golang 容器 OOM 被杀死排查区分，区分业务内存泄漏、容器限制过小，定位容器 OOMKilled 原因。
+ | 原文链接：http://book.kjagen.asia/blog/9660149.sHtMl
+
+原标题：golang csv 读写批量数据处理
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://book.kjagen.asia/blog/7191280.sHtMl
+
+原标题：安全实践：请求输入校验防御恶意参数
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：http://book.kjagen.asia/blog/3938249.sHtMl
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：调试工具断点调试变量查看技巧，演示断点设置、变量监视、调用栈查看，借助调试工具高效排查业务逻辑错误。
+ | 原文链接：http://book.kjagen.asia/blog/6250461.sHtMl
+
+原标题：网关超时时间调优后端等待
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://book.kjagen.asia/blog/9746149.sHtMl
+
+原标题：架构笔记：批量任务系统架构防重复、断点续跑
+简介：WSL 搭建 Windows Linux 开发环境，配置 WSL 环境，在 Windows 系统使用 Linux 工具链，适配 Linux 开发项目。
+ | 原文链接：http://book.kjagen.asia/blog/4089473.sHtMl
+
+原标题：性能复盘：内存泄漏定位，内存持续上涨优化
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://book.kjagen.asia/blog/5794589.sHtMl
+
+原标题：文件读写与异常捕获代码示例
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：http://book.kjagen.asia/blog/2027547.sHtMl
+
+原标题：golang 系统设计配置多环境隔离方案落地
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://book.kjagen.asia/blog/3240756.sHtMl
+
+原标题：HelloDocker：编写你的第一个Dockerfile
+简介：golang kafka 同步异步消费对比，对比 Kafka 同步消费异步消费，分析优缺点，业务选型参考。
+ | 原文链接：http://book.kjagen.asia/blog/8243454.sHtMl
+
+原标题：Architecture：BFF后端聚合层架构适用场景
+简介：express 中间件开发业务实践，开发 Express 自定义中间件，拦截请求，实现鉴权、日志记录等通用逻辑。
+ | 原文链接：http://book.kjagen.asia/blog/8123546.sHtMl
+
+原标题：Troubleshooting：数据库索引失效，查询性能暴跌
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://book.kjagen.asia/blog/2927250.sHtMl
+
+三、实战开发｜Practice
+原标题：方案对比：本地缓存vs分布式缓存架构取舍
+简介：golang go time 时区数据库内置，go 内置时区数据库，不用系统时区文件，容器时区不依赖系统。
+ | 原文链接：http://book.kjagen.asia/blog/8633916.sHtMl
+
+原标题：golang 系统设计 canary 金丝雀部署实操
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://book.kjagen.asia/blog/5148179.sHtMl
+
+原标题：golang aes 对称加密解密示例
+简介：特殊输入字符过滤解析防护，过滤用户输入特殊字符，防止解析报错，规避恶意字符带来业务异常。
+ | 原文链接：http://book.kjagen.asia/blog/6245131.sHtMl
+
+原标题：golang k8s hpa 水平 pod 自动扩缩容
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：http://book.kjagen.asia/blog/2949351.sHtMl
+
+原标题：golang 简易埋点日志上报实现
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：http://book.kjagen.asia/blog/2523848.sHtMl
+
+原标题：安全笔记：Git仓库密钥硬编码泄露处理方案
+简介：golang 集成测试测试数据库回滚，集成测试结束自动回滚数据库，不污染测试环境数据。
+ | 原文链接：http://book.kjagen.asia/blog/4034909.sHtMl
+
+原标题：新手向：配置项目eslint/prettier代码格式化
+简介：大事务拆分防止连接池耗尽，将执行时间很长的大事务拆分为小事务，减少事务占用连接时长。
+ | 原文链接：http://book.kjagen.asia/blog/8599469.sHtMl
+
+原标题：前端水印防信息泄露实现
+简介：异步任务堆积消费能力优化，处理消息任务堆积问题，提升消费处理速度，恢复队列正常处理水位。
+ | 原文链接：http://book.kjagen.asia/blog/0302736.sHtMl
+
+原标题：golang redis 连接池参数最佳值
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：http://book.kjagen.asia/blog/3038031.sHtMl
+
+原标题：实战：Redis集群本地搭建与功能验证
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：http://book.kjagen.asia/blog/9623484.sHtMl
+
+原标题：golang docker 镜像体积优化技巧
+简介：golang go http 安全头配置实践，设置 http 安全响应头，防范 XSS、点击劫持，提升 web 服务安全性。
+ | 原文链接：http://book.kjagen.asia/blog/2848370.sHtMl
+
+原标题：预编译 SQL 防注入实现
+简介：gitignore 文件编写过滤规则，讲解 gitignore 语法，编写过滤配置，忽略缓存、编译产物、密钥文件，保持仓库整洁。
+ | 原文链接：http://book.kjagen.asia/blog/5811692.sHtMl
+
+原标题：golang 系统设计 mq 消息积压解决方案
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://book.kjagen.asia/blog/8483517.sHtMl
+
+原标题：开发复盘：批量任务进度持久化实现方案
+简介：golang docker 多阶段构建 go 镜像，Go 项目 Docker 多阶段构建，编译与运行阶段分离，大幅度缩减最终镜像体积，提升镜像分发效率。
+ | 原文链接：http://book.kjagen.asia/blog/6979492.sHtMl
+
+原标题：性能笔记：操作系统文件句柄、虚拟内存调优
+简介：缓存过期策略优化防业务故障，合理设置缓存过期策略，规避集中过期，减少缓存失效带来业务抖动。
+ | 原文链接：http://book.kjagen.asia/blog/7956179.sHtMl
+
+原标题：golang 系统设计内部 rpc 接口设计原则梳理
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：http://book.kjagen.asia/blog/6260272.sHtMl
+
+原标题：golang 系统设计 cpu 高占用排查步骤
+简介：golang sync.Cond 条件变量使用，Cond 条件变量协程等待唤醒，复杂并发同步场景。
+ | 原文链接：http://book.kjagen.asia/blog/2957358.sHtMl
+
+原标题：开发复盘：分库分表本地模拟与数据路由实践
+简介：golang interface 接口使用避坑，interface 判 nil 坑点，理解接口底层结构，避免判空逻辑失效。
+ | 原文链接：http://book.kjagen.asia/blog/0745141.sHtMl
+
+原标题：golang 系统设计多租户数据隔离方案
+简介：文件描述符优化进程卡死修复，及时关闭文件句柄，控制打开文件数量，解决文件句柄耗尽进程卡死。
+ | 原文链接：http://book.kjagen.asia/blog/8593536.sHtMl
+
+原标题：设计思考：API网关和BFF职责边界划分
+简介：golang jaeger 链路追踪部署对接，jaeger 接收 opentelemetry 链路数据，可视化完整调用链路。
+ | 原文链接：http://book.kjagen.asia/blog/4091614.sHtMl
+
+原标题：调优方案：Docker容器内核参数性能调优
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：http://book.kjagen.asia/blog/1822716.sHtMl
+
+原标题：golang 系统设计配置敏感信息加密存储
+简介：golang 文件句柄耗尽排查处理，统计进程打开文件句柄，找到未关闭文件，修复句柄泄漏问题。
+ | 原文链接：http://book.kjagen.asia/blog/5159160.sHtMl
+
+原标题：golang 系统设计并发控制协程池任务池实现
+简介：nodejs 全局异常捕获进程防护，捕获未捕获异常与 Promise 拒绝，尽量保护进程不因为异常直接退出。
+ | 原文链接：http://book.kjagen.asia/blog/1799573.sHtMl
+
+原标题：避坑：定时任务重复执行带来业务脏数据
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://book.kjagen.asia/blog/6506524.sHtMl
+
+原标题：golang 简单爬虫请求防封禁
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：http://book.kjagen.asia/blog/1686235.sHtMl
+
+原标题：golang docker 容器资源限制设置
+简介：golang alertmanager 告警配置实践，alertmanager 配置告警路由，告警发送邮件钉钉，异常及时通知运维。
+ | 原文链接：http://book.kjagen.asia/blog/3601358.sHtMl
+
+原标题：golang k8s 日志收集 efk 简单架构
+简介：Shell 脚本自动化命令编写，讲解 Shell 基础语法，编写自动化脚本，完成批量执行、文件处理，解放重复手工操作。
+ | 原文链接：http://book.kjagen.asia/blog/6927800.sHtMl
+
+原标题：Hands‑on：简易事件驱动架构原型开发
+简介：golang prometheus client 业务埋点实操，prometheus client‑go 业务埋点，计数器、仪表盘、直方图指标开发。
+ | 原文链接：http://book.kjagen.asia/blog/3486799.sHtMl
+
+原标题：线上异常：缓存雪崩带来数据库压力瞬间飙升
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：http://book.kjagen.asia/blog/6391381.sHtMl
+
+原标题：内存泄漏定位分析完整流程
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：http://book.kjagen.asia/blog/2927351.sHtMl
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：golang validator 自定义校验规则，Gin Validator 自定义校验器，实现业务特殊参数校验逻辑。
+ | 原文链接：http://book.kjagen.asia/blog/3189574.sHtMl
+
+原标题：复盘总结：接口重构兼容旧版本改造复盘
+简介：golang cgroup 读取容器资源限制，go 程序读取 cgroup，获取容器 cpu 内存限额，适配容器环境。
+ | 原文链接：http://book.kjagen.asia/blog/3938069.sHtMl
+
+原标题：golang k8s liveness readiness 探针
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://book.kjagen.asia/blog/4078686.sHtMl
+
+原标题：Fork 开源项目同步上游代码
+简介：服务健康检查告警监控体系，搭建健康检查加告警体系，服务异常及时推送告警通知运维人员。
+ | 原文链接：http://book.kjagen.asia/blog/9682795.sHtMl
+
+原标题：开发记录：文件锁实现多进程互斥实践
+简介：golang grpc 重试机制客户端配置，grpc 客户端配置重试策略，临时故障自动重试，提升调用稳定性。
+ | 原文链接：http://book.kjagen.asia/blog/9526839.sHtMl
+
+原标题：golang 系统设计单元测试边界条件覆盖思路
+简介：golang kitex 超时重试熔断配置，kitex 配置调用超时、重试、熔断策略，保障微服务调用稳定性。
+ | 原文链接：http://book.kjagen.asia/blog/3068239.sHtMl
+
+原标题：golang 系统设计容器 OOM 故障完整排查
+简介：golang bufio.Scanner 缓冲区调大，Scanner 默认缓冲区大小不够，读取超长行需要扩大缓冲区。
+ | 原文链接：http://book.kjagen.asia/blog/4078380.sHtMl
+
+原标题：Debug：静态资源缓存策略错误，用户看不到更新
+简介：golang go regexp 正则预编译，regexp.MustCompile 预编译正则，不要循环内部编译正则，节省 CPU。
+ | 原文链接：http://book.kjagen.asia/blog/9745727.sHtMl
+
+原标题：Hands‑on：简易代理服务器开发实践
+简介：golang netlink 系统信息获取，netlink 获取系统网络信息，网卡地址，内核网络状态读取。
+ | 原文链接：http://book.kjagen.asia/blog/9594917.sHtMl
+
+原标题：看懂报错日志快速定位问题
+简介：golang lru 缓存淘汰算法编写，手写 LRU 缓存淘汰算法，实现本地缓存，淘汰最久未使用数据。
+ | 原文链接：http://book.kjagen.asia/blog/3927057.sHtMl
+
+四、架构设计｜Architecture
+原标题：Architecture：监控告警架构避免告警风暴设计
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：http://book.kjagen.asia/blog/5361695.sHtMl
+
+原标题：golang csv 读写批量数据处理
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：http://book.kjagen.asia/blog/6767240.sHtMl
+
+原标题：golang yaml 解析配置加载实操
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://book.kjagen.asia/blog/4060282.sHtMl
+
+原标题：golang validator 自定义校验规则
+简介：golang go 程序版本号内置编译注入，编译时注入 git commit 版本号，程序运行输出版本便于排查。
+ | 原文链接：http://book.kjagen.asia/blog/6371370.sHtMl
+
+原标题：方案对比：轮询长轮询WebSocket推送架构选型
+简介：golang rabbitmq 死信队列延迟消息，rabbitmq 实现死信、延迟消息，处理延时业务场景。
+ | 原文链接：http://book.kjagen.asia/blog/3088047.sHtMl
+
+原标题：golang 系统设计 protobuf 命名规范最佳实践
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：http://book.kjagen.asia/blog/9515846.sHtMl
+
+原标题：vite 项目配置与构建提速技巧
+简介：golang 内存 pprof 定位内存泄漏，pprof 分析内存快照，定位内存泄露对象，解决 Go 程序内存持续上涨。
+ | 原文链接：http://book.kjagen.asia/blog/7482796.sHtMl
+
+原标题：Practice：实现多数据源动态切换组件实践
+简介：golang 定时任务任务持久化存储，定时任务持久化到数据库，服务重启任务不丢失，动态管理任务。
+ | 原文链接：http://book.kjagen.asia/blog/1855623.sHtMl
+
+原标题：多套环境灵活切换配置方案
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://book.kjagen.asia/blog/3038057.sHtMl
+
+原标题：golang 系统设计 webhook 回调处理架构
+简介：golang httptest 模拟 http 请求单元测试，httptest 模拟 http 请求，测试 http handler 逻辑不用启动服务。
+ | 原文链接：http://book.kjagen.asia/blog/0715738.sHtMl
+
+原标题：安全实践：SQL注入产生场景与完整防御手段
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：http://book.kjagen.asia/blog/2816793.sHtMl
+
+原标题：零基础学习简单正则表达式实战案例
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：http://book.kjagen.asia/blog/4149057.sHtMl
+
+原标题：golang 系统设计短链接服务实现思路
+简介：WSL 内存上限限制防止资源耗尽，修改 WSL 内存上限配置，避免 WSL 占用主机大量内存资源。
+ | 原文链接：http://book.kjagen.asia/blog/1415736.sHtMl
+
+原标题：快速上手简易网关转发逻辑模拟
+简介：分布式事务最终一致性实现，基于可靠消息实现最终一致性，解决跨数据库跨服务业务数据一致性。
+ | 原文链接：http://book.kjagen.asia/blog/2667025.sHtMl
+
+原标题：架构笔记：数据脱敏架构接入层与存储层方案
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://book.kjagen.asia/blog/1592470.sHtMl
+
+原标题：golang 系统设计 webhook 回调处理架构
+简介：golang map 并发读写 panic 解决方案，map 非并发安全，讲解加锁、sync.map 方案解决并发读写崩溃。
+ | 原文链接：http://book.kjagen.asia/blog/0706746.sHtMl
+
+原标题：golang redis 限流几种实现方案
+简介：golang go 泛型实现通用数据结构，泛型实现通用栈队列，复用逻辑支持多种数据类型。
+ | 原文链接：http://book.kjagen.asia/blog/8256791.sHtMl
+
+原标题：文件监控服务自动重启开发
+简介：nodejs 内存溢出问题排查修复，Node.js 程序 OOM 排查流程，定位内存泄露，调整内存限制修复崩溃。
+ | 原文链接：http://book.kjagen.asia/blog/2028553.sHtMl
+
+?
