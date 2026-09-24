@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计架构图绘图工具选型对比
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：m.z9pdee.asia/Article/details/7336847.sHtML
+
+原标题：快速入门容器基础概念，理解镜像与容器
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：m.z9pdee.asia/Article/details/1816869.sHtML
+
+原标题：golang 跨域处理中间件编写
+简介：golang 速率限制令牌桶实现，Go 实现令牌桶限流算法，可复用限流器，控制业务调用速率。
+ | 原文链接：m.z9pdee.asia/Article/details/4048159.sHtML
+
+原标题：Architecture：静态资源分发CDN整体架构思路
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：m.z9pdee.asia/Article/details/6855281.sHtML
+
+原标题：golang 系统设计 gob msgpack 序列化对比
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：m.z9pdee.asia/Article/details/1828160.sHtML
+
+原标题：设计思考：分布式ID系统架构选型对比
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：m.z9pdee.asia/Article/details/1048029.sHtML
+
+原标题：golang 系统设计异步化改造业务流程思路
+简介：golang 容器信号转发处理问题修复，docker/k8s 正确转发 SIGTERM 信号，保证 go 程序收到信号优雅退出。
+ | 原文链接：m.z9pdee.asia/Article/details/6302795.sHtML
+
+原标题：消息队列重复消费业务处理
+简介：golang html 模板防 xss 自动转义，理解 go html/template 自动转义，防止 XSS 攻击，处理不需要转义场景。
+ | 原文链接：m.z9pdee.asia/Article/details/0704514.sHtML
+
+原标题：踩坑：大事务引发数据库连接池耗尽
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：m.z9pdee.asia/Article/details/5150574.sHtML
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：golang ip2regionIP 地址解析实战，集成 ip2region 库，根据 IP 解析归属地城市，实现 IP 地域解析。
+ | 原文链接：m.z9pdee.asia/Article/details/2804958.sHtML
+
+原标题：golang elasticsearch 索引设计思路
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：m.z9pdee.asia/Article/details/6290513.sHtML
+
+原标题：方案对比：定时任务框架选型与架构对比
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：m.z9pdee.asia/Article/details/0701695.sHtML
+
+原标题：golang 系统设计内部服务 mock 集成测试方案
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：m.z9pdee.asia/Article/details/7079476.sHtML
+
+原标题：运维笔记：服务器日志轮转logrotate配置
+简介：golang staticcheck 静态代码分析，staticcheck 深度静态检查，发现代码错误、性能问题、风格问题。
+ | 原文链接：m.z9pdee.asia/Article/details/0715139.sHtML
+
+原标题：设计思考：系统容量评估架构前期估算思路
+简介：golang fuzz corpus 语料库使用，fuzz 语料存储历史输入，回归测试，持续复现曾经触发 bug 输入。
+ | 原文链接：m.z9pdee.asia/Article/details/9634929.sHtML
+
+原标题：HelloMarkdown：GitHubMarkdown完整语法速查
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：m.z9pdee.asia/Article/details/3037258.sHtML
+
+原标题：安全复盘：Nginx配置不当带来的安全风险
+简介：golang fuzz corpus 语料库使用，fuzz 语料存储历史输入，回归测试，持续复现曾经触发 bug 输入。
+ | 原文链接：m.z9pdee.asia/Article/details/1845132.sHtML
+
+原标题：golang 工具函数库封装思路
+简介：golang go 程序版本号内置编译注入，编译时注入 git commit 版本号，程序运行输出版本便于排查。
+ | 原文链接：m.z9pdee.asia/Article/details/6263806.sHtML
+
+原标题：golang 系统设计 sql 注入 xss 防护实践
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：m.z9pdee.asia/Article/details/6271381.sHtML
+
+原标题：前端静态缓存更新生效处理
+简介：golang go 模板缓存预编译模板，预编译 html 模板，程序启动加载，避免每次请求解析模板损耗性能。
+ | 原文链接：m.z9pdee.asia/Article/details/2937340.sHtML
+
+原标题：golang mysql 字符集排序规则设置
+简介：WSL 内存上限限制防止资源耗尽，修改 WSL 内存上限配置，避免 WSL 占用主机大量内存资源。
+ | 原文链接：m.z9pdee.asia/Article/details/4066240.sHtML
+
+原标题：golang 系统设计短信发送限流降级
+简介：分布式 ID 生成器高并发实现，实现高性能分布式 ID 生成器，适配高并发业务，生成全局唯一 ID。
+ | 原文链接：m.z9pdee.asia/Article/details/8604736.sHtML
+
+原标题：Git 分支切换合并删除完整操作
+简介：golang ip 限流黑名单实现方案，基于 IP 做限流与黑名单，拦截恶意 IP 访问，保护接口服务。
+ | 原文链接：m.z9pdee.asia/Article/details/5159463.sHtML
+
+原标题：golang 系统设计 api 网关核心能力完整梳理
+简介：golang 雪花 id 重复问题排查，排查雪花算法 ID 重复问题，时钟回拨、机器 ID 冲突，给出修复方案。
+ | 原文链接：m.z9pdee.asia/Article/details/3647817.sHtML
+
+原标题：数据库主从延迟业务兼容处理
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：m.z9pdee.asia/Article/details/4982696.sHtML
+
+原标题：简易网关请求路由过滤模拟
+简介：游标分页大数据查询性能提升，使用游标分页替代偏移分页，解决大数据 offset 分页性能越来越差问题。
+ | 原文链接：m.z9pdee.asia/Article/details/6283807.sHtML
+
+原标题：Troubleshooting：代理环境下证书校验失败HTTPS报错
+简介：golang os 环境变量读取设置，os.Getenv os.Setenv os.Unsetenv 读写环境变量，环境变量多值处理。
+ | 原文链接：m.z9pdee.asia/Article/details/4158060.sHtML
+
+原标题：golang 系统设计内存复用 sync.pool 使用
+简介：极简方式搭建个人技术文档站点，使用轻量化工具快速部署文档站点，支持 markdown 编写，实现知识沉淀与对外分享。
+ | 原文链接：m.z9pdee.asia/Article/details/3038369.sHtML
+
+原标题：golang 系统设计大表加索引线上执行方案
+简介：Git LFS 大文件推送失败解决，配置 Git LFS，处理仓库大文件，解决大文件推送报错推送失败。
+ | 原文链接：m.z9pdee.asia/Article/details/6288062.sHtML
+
+原标题：安全实践：生产环境禁止开启debug调试模式
+简介：golang os.Signal 信号监听完整示例，signal.Notify 监听信号，缓冲 channel 防止信号丢失。
+ | 原文链接：m.z9pdee.asia/Article/details/2947141.sHtML
+
+原标题：golang 项目 makefile 脚本编写
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：m.z9pdee.asia/Article/details/2926058.sHtML
+
+原标题：monorepo 项目多包管理最佳实践
+简介：golang go‑fuzz 模糊测试开发，go fuzz 模糊测试，自动构造异常输入，发现代码隐藏 bug。
+ | 原文链接：m.z9pdee.asia/Article/details/6392714.sHtML
+
+原标题：架构复盘：数据库主从架构设计与延迟应对方案
+简介：golang 文件句柄耗尽排查处理，统计进程打开文件句柄，找到未关闭文件，修复句柄泄漏问题。
+ | 原文链接：m.z9pdee.asia/Article/details/0605614.sHtML
+
+原标题：排错：DockerCompose依赖顺序启动顺序坑
+简介：golang nil channel 阻塞特性，nil channel 读写永久阻塞，理解 nil channel 行为做逻辑控制。
+ | 原文链接：m.z9pdee.asia/Article/details/1747029.sHtML
+
+原标题：golang 系统设计限流服务架构讲解
+简介：手写简易 RPC 服务通信原型，手写极简 RPC 原型，理解服务注册、网络传输、方法调用底层逻辑。
+ | 原文链接：m.z9pdee.asia/Article/details/4148230.sHtML
+
+原标题：golang 系统设计集成测试环境准备清理实操
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：m.z9pdee.asia/Article/details/1717837.sHtML
+
+原标题：调优方案：JVM内存参数优化，降低GC频率
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：m.z9pdee.asia/Article/details/4148352.sHtML
+
+原标题：消息队列重复消费业务处理
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：m.z9pdee.asia/Article/details/8591574.sHtML
+
+原标题：新手指南：本地防火墙端口访问失败排查
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：m.z9pdee.asia/Article/details/4149240.sHtML
+
+原标题：Practice：模拟主从延迟业务兼容方案实践
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：m.z9pdee.asia/Article/details/3038170.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计会话共享多实例部署
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：m.z9pdee.asia/Article/details/5148141.sHtML
+
+原标题：复盘总结：缓存改造业务落地踩坑复盘
+简介：golang 图片处理 go 图片裁剪压缩，golang 图像处理库，图片缩放裁剪水印，服务端图片处理。
+ | 原文链接：m.z9pdee.asia/Article/details/3050169.sHtML
+
+原标题：踩坑：环境变量未生效导致线上配置错乱
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：m.z9pdee.asia/Article/details/3938270.sHtML
+
+原标题：Troubleshoot：异步异常未捕获，进程悄无声息退出
+简介：hosts 配置本地回环访问修复，修改 hosts 配置，修复 127.0.0.1 解析异常，本地服务访问失败问题。
+ | 原文链接：m.z9pdee.asia/Article/details/1716029.sHtML
+
+原标题：Hands‑on：简易消息推送服务开发实践
+简介：golang interface 接口使用避坑，interface 判 nil 坑点，理解接口底层结构，避免判空逻辑失效。
+ | 原文链接：m.z9pdee.asia/Article/details/6956171.sHtML
+
+原标题：Git 标签版本标记发布管理
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：m.z9pdee.asia/Article/details/6180573.sHtML
+
+原标题：前端工程化 webpack 打包优化
+简介：nodejs 集群模式多核利用实现，使用 cluster 集群模式，充分利用服务器多核 CPU，提升服务处理能力。
+ | 原文链接：m.z9pdee.asia/Article/details/3292685.sHtML
+
+原标题：安全笔记：HTTPSTLS配置安全加固实践
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：m.z9pdee.asia/Article/details/7372304.sHtML
+
+原标题：动态定时任务业务调度实现
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：m.z9pdee.asia/Article/details/0299463.sHtML
+
+原标题：实战：搭建本地对象存储兼容S3协议demo
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：m.z9pdee.asia/Article/details/6261573.sHtML
+
+原标题：golang 系统设计监控体系指标分类方法论梳理
+简介：看懂报错日志快速定位问题，讲解日志阅读方法，解析堆栈信息含义，学会从报错信息中定位代码出错位置。
+ | 原文链接：m.z9pdee.asia/Article/details/5272514.sHtML
+
+原标题：Git 仓库瘦身加快克隆下载速度
+简介：golang go 爬虫请求速率控制，爬虫限频、代理轮换，设置 UA，防止爬虫被目标站点封禁 IP。
+ | 原文链接：m.z9pdee.asia/Article/details/6360170.sHtML
+
+原标题：golang 系统设计 api 接口兼容性设计原则
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：m.z9pdee.asia/Article/details/7373504.sHtML
+
+原标题：golang 系统设计监控缺失指标补全完整流程
+简介：golang systemd 信号与优雅退出配合，systemd 停止服务发送 SIGTERM，go 程序捕获信号优雅关闭。
+ | 原文链接：m.z9pdee.asia/Article/details/1716948.sHtML
+
+原标题：CI 流水线超时时间延长配置
+简介：golang json 自定义 MarshalJSON UnmarshalJSON，自定义 json 序列化反序列化逻辑，处理特殊格式字段。
+ | 原文链接：m.z9pdee.asia/Article/details/2828937.sHtML
+
+原标题：golang 单元测试 mock http 请求
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：m.z9pdee.asia/Article/details/4140573.sHtML
+
+原标题：golang 系统设计主干开发 trunk‑based 讲解
+简介：多环境配置中心灵活切换方案，简易配置中心实现，支持多套环境配置，动态下发无需重启服务。
+ | 原文链接：m.z9pdee.asia/Article/details/5260193.sHtML
+
+原标题：golang 系统设计读写分离架构示例
+简介：golang 信号触发配置重载实践，收到 SIGUSR1 信号重新加载配置，线上无需重启刷新配置。
+ | 原文链接：m.z9pdee.asia/Article/details/4049369.sHtML
+
+原标题：性能笔记：操作系统文件句柄、虚拟内存调优
+简介：golang go mod exclude 排除依赖版本，exclude 排除有问题依赖版本，规避有 bug 的第三方包。
+ | 原文链接：m.z9pdee.asia/Article/details/7372393.sHtML
+
+原标题：坑点：gitrebase操作失误，代码提交丢失
+简介：后端大文件分片上传接口开发，开发后端分片上传接口，接收分片，合并分片完成大文件存储。
+ | 原文链接：m.z9pdee.asia/Article/details/2827837.sHtML
+
+原标题：DevOps：环境配置管理区分开发测试生产
+简介：golang 错误栈捕获打印方案，捕获错误完整调用堆栈，线上日志输出堆栈，快速定位错误发生代码位置。
+ | 原文链接：m.z9pdee.asia/Article/details/6305736.sHtML
+
+原标题：golang 系统设计分库分表 id 全局生成策略
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：m.z9pdee.asia/Article/details/1715947.sHtML
+
+原标题：CORS 跨域问题多种解决方案
+简介：浏览器内存泄漏排查前端页面，梳理前端页面内存泄漏场景，讲解排查手段，修复页面内存持续上涨。
+ | 原文链接：m.z9pdee.asia/Article/details/6289271.sHtML
+
+原标题：Hands‑on：模板渲染引擎最小原型实现
+简介：CORS 跨域问题多种解决方案，对比 CORS、代理等不同跨域方案优缺点，根据业务场景选择合适的跨域处理方式。
+ | 原文链接：m.z9pdee.asia/Article/details/6371381.sHtML
+
+原标题：部署复盘：容器资源限制CPU内存配置实践
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：m.z9pdee.asia/Article/details/2857351.sHtML
+
+原标题：Debug：静态资源缓存策略错误，用户看不到更新
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：m.z9pdee.asia/Article/details/3747381.sHtML
+
+原标题：golang 限流熔断降级完整示例
+简介：golang 集成测试测试数据库回滚，集成测试结束自动回滚数据库，不污染测试环境数据。
+ | 原文链接：m.z9pdee.asia/Article/details/9612807.sHtML
+
+原标题：Issue：容器日志驱动配置错误日志全部丢失
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：m.z9pdee.asia/Article/details/7372793.sHtML
+
+原标题：前后端交互跨域问题完整处理
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：m.z9pdee.asia/Article/details/6582481.sHtML
+
+原标题：快速入门GraphQL基础查询语法示例
+简介：前端权限路由动态生成实现，根据后端返回权限，动态生成前端路由菜单，实现页面权限控制。
+ | 原文链接：m.z9pdee.asia/Article/details/2829029.sHtML
+
+原标题：golang redis pipeline 原子性说明
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：m.z9pdee.asia/Article/details/0605607.sHtML
+
+原标题：Hands‑on：模拟RPC超时重试业务异常场景
+简介：golang 消息死信处理业务逻辑，Go 实现死信队列逻辑，消费失败消息转入死信，不阻塞正常消息队列。
+ | 原文链接：m.z9pdee.asia/Article/details/1716836.sHtML
+
+原标题：性能复盘：锁粒度太大，拆分细粒度锁优化
+简介：golang go 应用内存使用优化手段，减少对象分配，复用对象，降低 GC 压力，减少 GC 停顿时间。
+ | 原文链接：m.z9pdee.asia/Article/details/1415837.sHtML
+
+原标题：golang 系统设计 git 分支流程 gitflow 实操
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：m.z9pdee.asia/Article/details/7189492.sHtML
+
+原标题：golang 系统设计链路追踪核心概念 trace span 讲解
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：m.z9pdee.asia/Article/details/7301618.sHtML
+
+原标题：golang 优雅处理 http 超时设置
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：m.z9pdee.asia/Article/details/9660807.sHtML
+
+原标题：开发记录：服务优雅关闭释放资源完整实现
+简介：golang gorm 软删除实现逻辑，Gorm 开启软删除，删除数据仅标记，数据保留可恢复，满足业务数据留存。
+ | 原文链接：m.z9pdee.asia/Article/details/5152492.sHtML
+
+原标题：golang k8s 网络策略网络隔离设置
+简介：golang gin 框架接口开发实战，Gin 框架搭建 HTTP 服务，开发增删改查接口，快速完成后端接口开发。
+ | 原文链接：m.z9pdee.asia/Article/details/8546736.sHtML
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：缓存穿透击穿雪崩全套防护，完整梳理缓存三大问题，落地全套防护策略，保障缓存层稳定运行。
+ | 原文链接：m.z9pdee.asia/Article/details/4149170.sHtML
+
+原标题：部署复盘：静态资源版本哈希缓存策略
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：m.z9pdee.asia/Article/details/6361392.sHtML
+
+三、实战开发｜Practice
+原标题：golang alertmanager 钉钉告警推送
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：m.z9pdee.asia/Article/details/0602739.sHtML
+
+原标题：Issue：Docker网络模式选择错误容器互通失败
+简介：golang regexp 正则捕获分组提取数据，正则捕获分组提取子匹配内容，拿到需要业务字段。
+ | 原文链接：m.z9pdee.asia/Article/details/1759463.sHtML
+
+原标题：golang 系统设计数据库版本迁移回滚方案
+简介：golang go toml 配置注释保留，toml 解析保留注释，修改配置后写回保留原有注释。
+ | 原文链接：m.z9pdee.asia/Article/details/2826148.sHtML
+
+原标题：golang yaml 解析配置加载实操
+简介：golang go 线上故障排查完整流程，CPU 高、内存上涨、接口超时、goroutine 泄露一套排查处理流程。
+ | 原文链接：m.z9pdee.asia/Article/details/6827359.sHtML
+
+原标题：网关超时时间调优后端等待
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：m.z9pdee.asia/Article/details/6360281.sHtML
+
+原标题：golang 系统设计数据库迁移工具 go‑migrate 实操
+简介：golang 数据库连接池参数调优详解，最大连接空闲连接最大生命周期，结合业务合理配置避免资源浪费。
+ | 原文链接：m.z9pdee.asia/Article/details/0745140.sHtML
+
+原标题：复盘总结：技术选型对比文档模板实践
+简介：golang 项目 makefile 脚本编写，编写 Makefile 脚本，封装编译、测试、构建命令，简化项目操作。
+ | 原文链接：m.z9pdee.asia/Article/details/2815030.sHtML
+
+原标题：开发复盘：内存缓存LRU淘汰策略实现实践
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：m.z9pdee.asia/Article/details/0736270.sHtML
+
+原标题：HelloGitHubPages：部署你的第一个静态博客
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：m.z9pdee.asia/Article/details/1826836.sHtML
+
+原标题：golang 系统设计 mq 消息积压解决方案
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：m.z9pdee.asia/Article/details/0703837.sHtML
+
+原标题：golang 系统设计死信队列 dlq 业务落地完整流程
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：m.z9pdee.asia/Article/details/1534958.sHtML
+
+原标题：排错：macOS权限保护导致脚本执行被拦截
+简介：golang sync.Pool 对象池复用对象，sync.Pool 复用临时对象，减少内存分配，降低 GC 频率提升性能。
+ | 原文链接：m.z9pdee.asia/Article/details/9523803.sHtML
+
+原标题：golang 系统设计 k8s 集群安全配置梳理
+简介：golang 分布式追踪全链路日志打印，日志打印 traceId，各个服务日志可串联，排查跨服务调用问题。
+ | 原文链接：m.z9pdee.asia/Article/details/6583503.sHtML
+
+原标题：golang ip 限流黑名单实现方案
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：m.z9pdee.asia/Article/details/7488463.sHtML
+
+原标题：golang 系统设计线上问题复现思路简单讲解
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：m.z9pdee.asia/Article/details/1716948.sHtML
+
+原标题：golang redis 过期 key 监听业务
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：m.z9pdee.asia/Article/details/6708234.sHtML
+
+原标题：golang 系统设计读写分离架构示例
+简介：golang redis zset 实现延时任务队列，zset 存储任务到期时间，轮询到期任务执行，简易延迟队列。
+ | 原文链接：m.z9pdee.asia/Article/details/0422023.sHtML
+
+原标题：项目语义化版本号规范管理
+简介：百万数据 Excel 导出内存优化，优化大 Excel 导出逻辑，流式输出，避免一次性加载全部数据造成 OOM。
+ | 原文链接：m.z9pdee.asia/Article/details/2667679.sHtML
+
+原标题：优化实践：序列化框架性能对比选型实践
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：m.z9pdee.asia/Article/details/4834792.sHtML
+
+原标题：开发代理服务网络限制解决
+简介：golang websocket 服务端开发，Go 实现 WebSocket 服务端，处理连接、消息收发，实现长连接服务。
+ | 原文链接：m.z9pdee.asia/Article/details/7390244.sHtML
+
+原标题：实战：数据库explain执行计划分析实操演练
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：m.z9pdee.asia/Article/details/2023567.sHtML
+
+原标题：踩坑：批量MQ消费失败直接无限重试消息爆炸
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：m.z9pdee.asia/Article/details/7145170.sHtML
+
+原标题：golang 系统设计缓存故障降级处理方案
+简介：golang net/http 超时全套配置，完整配置 Go HTTP 服务读写空闲超时，全方位防止请求挂住。
+ | 原文链接：m.z9pdee.asia/Article/details/0516120.sHtML
+
+原标题：安全笔记：Cookie安全属性SecureHttpOnly
+简介：golang embed 目录读取文件列表，embed 嵌入整个目录，读取目录下全部文件，做静态资源服务。
+ | 原文链接：m.z9pdee.asia/Article/details/7046704.sHtML
+
+原标题：golang 系统设计缓存更新策略 cache aside 讲解
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：m.z9pdee.asia/Article/details/9379014.sHtML
+
+原标题：golang 系统设计 tcp 粘包拆包处理方案实现
+简介：项目依赖安全扫描漏洞防范，扫描项目第三方依赖包，修复存在安全漏洞依赖，防范供应链攻击。
+ | 原文链接：m.z9pdee.asia/Article/details/5463920.sHtML
+
+原标题：nestjs 权限守卫鉴权实现方案
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：m.z9pdee.asia/Article/details/3795224.sHtML
+
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：m.z9pdee.asia/Article/details/0809436.sHtML
+
+原标题：golang md5 sha 加密工具实现
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：m.z9pdee.asia/Article/details/4036682.sHtML
+
+原标题：实战项目：CLI批量文件处理工具开发全过程
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：m.z9pdee.asia/Article/details/8550138.sHtML
+
+原标题：项目实践：OpenTelemetry链路追踪本地部署实践
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：m.z9pdee.asia/Article/details/4845791.sHtML
+
+原标题：踩坑记录：分页逻辑错误造成数据重复输出
+简介：golang ip2regionIP 地址解析实战，集成 ip2region 库，根据 IP 解析归属地城市，实现 IP 地域解析。
+ | 原文链接：m.z9pdee.asia/Article/details/4714579.sHtML
+
+原标题：开发代理服务网络限制解决
+简介：分页逻辑错误数据漏查修复，修复分页查询逻辑漏洞，解决分页漏数据、重复返回数据等业务问题。
+ | 原文链接：m.z9pdee.asia/Article/details/1579127.sHtML
+
+原标题：golang mysql 死锁排查步骤讲解
+简介：golang init 函数合理使用边界，少用 init，优先显式调用初始化，便于控制初始化时机。
+ | 原文链接：m.z9pdee.asia/Article/details/1883500.sHtML
+
+原标题：Architecture：大文件上传下载系统架构设计
+简介：golang prometheus 指标埋点开发，业务埋点计数器、仪表盘、直方图，对接 prometheus 采集监控指标。
+ | 原文链接：m.z9pdee.asia/Article/details/8268137.sHtML
+
+原标题：Nginx 反向代理路由配置实战
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：m.z9pdee.asia/Article/details/1379925.sHtML
+
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：golang 探测文件真实内容类型，读取文件头部字节判断真实文件格式，规避后缀伪造。
+ | 原文链接：m.z9pdee.asia/Article/details/8570470.sHtML
+
+原标题：Debug：DNS缓存TTL设置不当服务切换无法生效
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：m.z9pdee.asia/Article/details/6935571.sHtML
+
+原标题：Performance：数据库分表解决单表过大性能衰减
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：m.z9pdee.asia/Article/details/9369037.sHtML
+
+原标题：部署实践：内网开发环境代理配置实践
+简介：GraphQL 接口查询优化实操，体验 GraphQL 查询方式，按需获取字段，减少冗余数据传输，优化接口请求效率。
+ | 原文链接：m.z9pdee.asia/Article/details/0457917.sHtML
+
+四、架构设计｜Architecture
+原标题：golang 系统设计错误码体系完整设计
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：m.z9pdee.asia/Article/details/2604682.sHtML
+
+原标题：golang traceId spanId 传递方案
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：m.z9pdee.asia/Article/details/8378026.sHtML
+
+原标题：golang 系统设计数据脱敏架构实现
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：m.z9pdee.asia/Article/details/2569249.sHtML
+
+原标题：golang channel 通道并发处理
+简介：Git 标签版本标记发布管理，使用 Git 标签标记项目版本，打标签推送远程，用于版本发布、版本回溯。
+ | 原文链接：m.z9pdee.asia/Article/details/2592470.sHtML
+
+原标题：坑点：版本号语义化理解错误依赖版本错乱
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：m.z9pdee.asia/Article/details/2669356.sHtML
+
+原标题：入门实践：Git分支创建切换合并完整演示
+简介：前端组件库按需加载性能优化，配置组件库按需引入，避免引入全部组件，减少打包产物体积。
+ | 原文链接：m.z9pdee.asia/Article/details/9368247.sHtML
+
+原标题：架构复盘：慢查询治理架构层面优化手段
+简介：golang tcp keepalive 参数程序配置，go 程序设置 tcp keepalive，操作系统 tcp 保活参数，清理僵死连接。
+ | 原文链接：m.z9pdee.asia/Article/details/1702681.sHtML
+
+原标题：设计思考：消息队列重复消费架构层防御手段
+简介：golang redis 锁超时业务处理，Redis 分布式锁超时问题处理，锁续期逻辑，防止业务未完成锁提前释放。
+ | 原文链接：m.z9pdee.asia/Article/details/5824682.sHtML
+
+原标题：golang k8s pod 优雅关闭流程讲解
+简介：golang context 上下文传参讲解，讲解 Context 使用场景，传递元数据、控制协程超时取消，规范协程控制。
+ | 原文链接：m.z9pdee.asia/Article/details/3263979.sHtML
+
+原标题：架构笔记：多数据源架构设计事务处理难点
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：m.z9pdee.asia/Article/details/4311745.sHtML
+
+原标题：Hands‑on：简易请求转发代理中间件实现
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：m.z9pdee.asia/Article/details/7575079.sHtML
+
+原标题：golang 系统设计本地缓存过期淘汰策略选型
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：m.z9pdee.asia/Article/details/5256793.sHtML
+
+原标题：程序性能指标 CPU 内存监控
+简介：golang bcrypt 密码哈希加密存储，bcrypt 做用户密码哈希，加盐存储密码，保障用户密码安全。
+ | 原文链接：m.z9pdee.asia/Article/details/9591247.sHtML
+
+原标题：CI 构建缓存加速编译速度
+简介：golang httptest 模拟外部 http 服务，httptest.NewServer 模拟第三方 http 服务，单元测试 mock 外部接口。
+ | 原文链接：m.z9pdee.asia/Article/details/2364456.sHtML
+
+原标题：golang etcd 配置中心简单使用
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：m.z9pdee.asia/Article/details/5875527.sHtML
+
+原标题：golang etcd 分布式锁实现原理
+简介：golang icmp ping 程序实现，go 实现 ping 工具发送 icmp 报文，检测网络连通性。
+ | 原文链接：m.z9pdee.asia/Article/details/5801910.sHtML
+
+原标题：golang 系统设计数据库迁移工具 go‑migrate 实操
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：m.z9pdee.asia/Article/details/8267026.sHtML
+
+原标题：Practice：实现请求重试组件支持退避策略
+简介：golang 系统调用跟踪 strace 排查 go 程序，strace 跟踪系统调用，定位文件网络 IO 慢的底层原因。
+ | 原文链接：m.z9pdee.asia/Article/details/5148915.sHtML
+
+?
